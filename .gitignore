@@ -1,6 +1,7 @@
 # RoC personal files
 .setup-info
 .ipynb_checkpoints
+.test
 
 # Windows
 Thumbs.db
