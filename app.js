@@ -7,6 +7,8 @@ const dotenv = require('dotenv').config();
 const moment = require('moment');
 const cors = require('cors');
 
+const Packages = require('./models/package.js');
+
 
 // Hide creds from repo
 const mongoDB = process.env.MONGODB_URL;
@@ -82,7 +84,7 @@ app.get('/:id', function(request, response){
 
   // model.findOne returns the first object it finds
   // model.find will always return an array, even if it only finds one 
-  Image.findOne({'id': request.params.id}, function(error, destination) {
+  Packages.findOne({'id': request.params.id}, function(error, destination) {
   
     // Check for IDs that are not in our list and render custom 404 page
      if (!destination) {
@@ -106,7 +108,7 @@ app.get('/api/images', function(request, response){
 
   // response.json(destinations);
 
-  Image.find(function(error, images) { 
+  Packages.find({PackageIDSQL: { $gte: 4 }}, function(error, images) { 
     response.json(images);
   });
 
