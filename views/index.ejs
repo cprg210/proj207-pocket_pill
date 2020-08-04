@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <%- include('./partials/head'); %> 
+  <title>Travel Experts Agency Website - Home Page</title>
+  <%- include('./partials/css-global'); %>
+  <link rel="stylesheet" href="/css/index.css">
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+  
+  <!--This section contains the navigation bar which will be at the top of the page-->
+  <%- include('./partials/header-nav', {current:"Home"}); %>
+  
+  <main>
+    
+    <!--This is the hero section, containing a logo, texts and a register button which is the website goal-->
+    <div class="hero-section">
+      
+      <!--logo-->
+      <!--<a href="#Home"><img src="images/canvas_navs.png" class="companylogo" alt="Website Logo"></a>
+      
+      <!--hero section texts and register button-->
+      <div class="hero-text">
+        <h1>Connect to the <span>World</span> With Great Adventures</h1>
+        <p>Explore and Save More</p>
+        <a class="web-goal" href="register.html">Sign Up Here!</a>
+      </div>
+    </div>
+
+    <h2>VACATION PACKAGES - Summer Deals</h2>
+    
+    <div class="container">
+      <div class="packageSlides">
+        <div class="number">1 / 6</div>
+        <img src="http://picsum.photos/id/1015/1250/300" alt="Peru">
+      </div>
+    
+      <div class="packageSlides">
+        <div class="number">2 / 6</div>
+        <img src="http://picsum.photos/id/1031/1250/300" alt="Los Angeles">
+      </div>
+    
+      <div class="packageSlides">
+        <div class="number">3 / 6</div>
+        <img src="http://picsum.photos/id/1038/1250/300" alt="Paris">
+      </div>
+        
+      <div class="packageSlides">
+        <div class="number">4 / 6</div>
+        <img src="http://picsum.photos/id/1039/1250/300" alt="Brisbane">
+      </div>
+    
+      <div class="packageSlides">
+        <div class="number">5 / 6</div>
+        <img src="http://picsum.photos/id/1043/1250/300" alt="Mauritius">
+      </div>
+        
+      <div class="packageSlides">
+        <div class="number">6 / 6</div>
+        <img src="http://picsum.photos/id/1055/1250/300" alt="Dubai">
+      </div>
+        
+      <a class="before" onclick="plusSlides(-1)">❮</a>
+      <a class="after" onclick="plusSlides(1)">❯</a>
+    
+      <div class="title-container">
+        <p id="title"></p>
+      </div>
+    
+      <div class="row">
+        <div class="column">
+          <img class="demo cursor" src="http://picsum.photos/id/1015/1250/800" onclick="currentSlide(1)" alt="Peru">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="http://picsum.photos/id/1031/1250/800" onclick="currentSlide(2)" alt="Los Angeles">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="http://picsum.photos/id/1038/1250/800" onclick="currentSlide(3)" alt="Paris">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="http://picsum.photos/id/1039/1250/800" onclick="currentSlide(4)" alt="Brisbane">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="http://picsum.photos/id/1043/1250/800" onclick="currentSlide(5)" alt="Mauritius">
+        </div>    
+        <div class="column">
+          <img class="demo cursor" src="http://picsum.photos/id/1055/1250/800" onclick="currentSlide(6)" alt="Dubai">
+        </div>
+      </div>
+    </div>
+ 
+    
+  </main>
+  
+  <!--Footer will be below the page-->
+  <%- include('./partials/foot'); %>
+
+  <!--This contains the javascript for hamburger menu and image gallery array for each loop-->
+  <%- include('./partials/gallery-js'); %>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <%- include('./partials/head'); %> 
+  <title>Order</title>
+  <%- include('./partials/css-global'); %>
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+  
+  <!--This section contains the navigation bar which will be at the top of the page-->
+  <%- include('./partials/header-nav', {current:"explore"}); %>
+
+  <main>
+    <!--This section contains a registration form for users sign up-->
+    <div id="order">
+      
+      <!--Registration form using fieldset, legend, label and input type-->
+      <form action="https://formspree.io/xgennzer" method="POST">
+        <h2>ONLINE BOOKING</h2>
+        <fieldset>
+          <legend></legend>
+          <label class="required"><span>Name</span>
+            <input type="text" placeholder="Enter full name" required>
+          </label>
+          
+          <label class="required"><span>Email</span>
+            <input type="email" placeholder="Enter full name" required>
+          </label>                  
+          <label class="required">
+            <span>Phone</span>
+            <input type="tel" placeholder="Enter phone number (including country and area code)">
+          </label>
+          <label class="required">
+            <span>Date</span>
+
+            
+            <input type="date" placeholder="date of travel" required>
+          </label>
+          <label class="required">
+            <span>Package Name</span>
+            <input type="text" placeholder="enter name and id of vacation Package" required>
+          </label> 
+          <label class="required">
+            <span>How many People</span>
+            <input type="int" placeholder="how many people will be on this booking" required>
+          </label> 
+        </fieldset>
+
+        <!--sign up button-->
+        <button>Submit Order</button>
+      </form>    
+    </div>
+  </main>
+
+  <!--Footer will be below the page-->
+  <%- include('./partials/foot'); %>
+
+  <!--This contains the javascript for hamburger menu-->
+  <%- include('./partials/gallery-js'); %>
+</body>
+</html>

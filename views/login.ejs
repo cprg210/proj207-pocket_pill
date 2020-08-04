@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <%- include('./partials/head'); %> 
+  <title>Login Page</title>
+  <%- include('./partials/css-global'); %>
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+
+  <!--This section contains the navigation bar which will be at the top of the page-->
+  <%- include('./partials/header-nav', {current:"login"}); %>
+
+  <main>
+    <!--This section contains a login form for log in-->
+    <div class="form">
+      <div id="login">
+        
+        <!--Registration form using fieldset, legend, label and input type-->
+        <form action="https://formspree.io/xgennzer" method="POST">
+          <fieldset>
+            <legend></legend>
+            <label class="required" >
+              <span>Email </span>
+              <input placeholder="Enter Email Address" type="email" required>
+            </label>
+            <label class="required" >
+              <span>Password </span>
+              <input placeholder="Enter Password" type="password" minlength="8" required>
+            </label>
+          </fieldset>
+          
+          <!--login button-->
+          <button>Login</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <!--Footer will be below the page-->
+  <%- include('./partials/foot'); %>
+
+  
+  <!--This contains the javascript for hamburger menu-->
+  <%- include('./partials/gallery-js'); %>
+</body>
+</html>

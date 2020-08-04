@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include('./partials/head'); %> 
+  <title>About Us</title>
+  <%- include('./partials/css-global'); %>
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/about.css">
+</head>
+<body>
+  <body>
+
+<!--This section contains the navigation bar which will be at the top of the page-->
+    <%- include('./partials/header-nav', {current:"about"}); %>
+
+    <div class="aboutus">
+      <div class="about0"></div>
+      <div class="about1">      
+        <h2>100% Canadian. Global Experts</h2>
+      </div>
+      <div class="about2">
+        <h3>We are Travel Agency Inc. - Experts in Vacation Holidays</h3>
+        
+      </div>
+      <div class="about3">
+        <p>We are committed to offering experiences with increased safety measures, peace of mind and flexible cancellation policies while you discover the world.</p>
+      </div>
+      <div class="about4"><strong>Renowned Experts</strong></div>
+      <div class="about5"><strong>Client Reviews</strong></div>
+      <div class="about6"><strong>Various Branches</strong></div>
+      <div class="about7"><strong>Mobile Booking</strong></div>
+      <div class="about8"><strong>Global Partnerships</strong></div>
+      <div class="about9"><strong></strong></div>
+    </div>
+  
+  
+    <div class="aboutExperts">
+      <div class="expert0"></div>
+      <div class="expert1">
+        <h2>HOME GROWN EXPERTS</h2>
+      </div>
+      <div class="expert2">
+        <p>Our experts are home-grown, renowned, knowledgeable and fun loving. They have sailed on the ships, flown airlines and stayed in the hotels and resorts. We believe that the most important ingredient for the success of your vacation is being well informed.</p>
+      </div>
+      <div class="expert3"><img src="http://picsum.photos/id/378/500/300" alt="slider image">
+      </div>
+  
+    </div>
+      <div class="aboutpartners">
+        <div class="partner0"></div>
+        <div class="partner1">
+          <h2>GLOBAL PARTNERSHIPS</h2>
+        </div>
+        <div class="partner2">
+          <p>We grow stronger when we work together. We act quickly and deliver smart solutions. We passionately adjust, expand, and share our expertise. We have partners in every continenet and offer top notch services</p>
+        </div>
+        <div class="partner3"><img src="http://picsum.photos/id/43/500/300" alt="slider image">
+        </div>  
+      </div>
+  
+      <div class="aboutclients">
+        <div class="client0"></div>
+        <div class="client1">
+          <h2>CORPORATE AND LESISURE CLIENTS</h2>
+        </div>
+        <div class="client2">
+          <p>Our services meet your cororate needs either as a group or individuals. Reviews from our clients are available for your decision making.</p>
+        </div>
+        <div class="client3"><img src="http://picsum.photos/id/513/500/300" alt="slider image">
+        </div>  
+      </div>
+  
+      <div class="aboutbranches">
+        <div class="branches0"></div>
+        <div class="branches1">
+          <h2>MULTIPLE LOCATIONS</h2>
+        </div>
+        <div class="branches2">
+          <p>Each branch is a fully staffed, and all our experienced travel agents are available for walk-in customers and accountable to the public. Our offices are linked together on one network, so you may be speaking to an agent in a different part of the country.</p>
+        </div>
+        <div class="branches3"><img src="http://picsum.photos/id/621/500/300" alt="slider image">
+        </div>  
+      </div>
+  
+      <div class="aboutmobile">
+        <div class="mobile0"></div>
+        <div class="mobile1">
+          <h2>MAKE YOUR BOOKINGS AT ANYTIME FROM ANYWHERE</h2>
+        </div>
+        <div class="mobile2">
+         <p>Our Vcation Packages are accessible on all devices. You pick the place and we'll make it happen</p>
+        </div>
+        <div class="mobile3"><img src="http://picsum.photos/id/504/500/300" alt="slider image">
+        </div>  
+      </div>
+
+<!--Footer will be below the page-->
+<%- include('./partials/foot'); %>
+
+<!--This contains the javascript for hamburger menu and image gallery array for each loop-->
+<%- include('./partials/gallery-js'); %>
+
+  </body>
+</html>
