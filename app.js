@@ -7,8 +7,6 @@ const dotenv = require('dotenv').config();
 const moment = require('moment');
 const cors = require('cors');
 
-// Models
-const Image = require('./models/destination.js');
 
 // Hide creds from repo
 const mongoDB = process.env.MONGODB_URL;
