@@ -4,7 +4,7 @@ const mySchema = new mongoose.Schema(
   {
     FeeIdSQL: String,
     FeeName: String,
-    FeeAmt: Decimal128,
+    FeeAmt: Number,
     FeeDesc: String
   }
 );

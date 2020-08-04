@@ -13,6 +13,7 @@ const mySchema = new mongoose.Schema(
     CustHomePhone: String,
     CustBusPhone: String,
     CustEmail: String,
+    CustPass: String,
     AgentIdSQL: Number
   }
 );

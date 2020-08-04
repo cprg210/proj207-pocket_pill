@@ -1,7 +1,7 @@
 const myList = [
   {
     EmpFirstName: 'Janet',
-    EmpMiddleInitial: NULL,
+    EmpMiddleInitial: ' ',
     EmpLastName: 'Delton',
     EmpBusPhone: '(403) 210-7801',
     EmpEmail: 'janet.delton@travelexperts.com',
@@ -9,7 +9,7 @@ const myList = [
   },
   {
     EmpFirstName: 'Judy',
-    EmpMiddleInitial: NULL,
+    EmpMiddleInitial: ' ',
     EmpLastName: 'Lisle',
     EmpBusPhone: '(403) 210-7802',
     EmpEmail: 'judy.lisle@travelexperts.com',
@@ -25,7 +25,7 @@ const myList = [
   },
   {
     EmpFirstName: 'John',
-    EmpMiddleInitial: NULL,
+    EmpMiddleInitial: ' ',
     EmpLastName: 'Coville',
     EmpBusPhone: '(403) 210-7823',
     EmpEmail: 'john.coville@travelexperts.com',
@@ -57,7 +57,7 @@ const myList = [
   },
   {
     EmpFirstName: 'Jane',
-    EmpMiddleInitial: NULL,
+    EmpMiddleInitial: ' ',
     EmpLastName: 'Merrill',
     EmpBusPhone: '(403) 210-7868',
     EmpEmail: 'jane.merrill@travelexperts.com',

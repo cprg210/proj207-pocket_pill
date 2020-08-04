@@ -7,8 +7,9 @@ const mySchema = new mongoose.Schema(
     PkgStartDate: Date,
     PkgEndDate: Date,
     PkgDesc: String,
-    PkgBasePrice: Decimal128,
-    PkgAgencyCommission: Decimal128
+    PkgFileName: String,
+    PkgBasePrice: Number,
+    PkgAgencyCommission: Number
   }
 );
 

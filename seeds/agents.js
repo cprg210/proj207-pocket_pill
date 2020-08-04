@@ -2,7 +2,7 @@ const myList = [
   {
     AgentIdSQL: 1,
     AgtFirstName: 'Janet',
-    AgtMiddleInitial: NULL,
+    AgtMiddleInitial: ' ',
     AgtLastName: 'Delton',
     AgtBusPhone: '(403) 210-7801',
     AgtEmail: 'janet.delton@travelexperts.com',
@@ -12,7 +12,7 @@ const myList = [
   {
     AgentIdSQL: 2,
     AgtFirstName: 'Judy',
-    AgtMiddleInitial: NULL,
+    AgtMiddleInitial: ' ',
     AgtLastName: 'Lisle',
     AgtBusPhone: '(403) 210-7802',
     AgtEmail: 'judy.lisle@travelexperts.com',
@@ -32,7 +32,7 @@ const myList = [
   {
     AgentIdSQL: 4,
     AgtFirstName: 'John',
-    AgtMiddleInitial: NULL,
+    AgtMiddleInitial: ' ',
     AgtLastName: 'Coville',
     AgtBusPhone: '(403) 210-7823',
     AgtEmail: 'john.coville@travelexperts.com',
@@ -72,7 +72,7 @@ const myList = [
   {
     AgentIdSQL: 8,
     AgtFirstName: 'Jane',
-    AgtMiddleInitial: NULL,
+    AgtMiddleInitial: ' ',
     AgtLastName: 'Merrill',
     AgtBusPhone: '(403) 210-7868',
     AgtEmail: 'jane.merrill@travelexperts.com',

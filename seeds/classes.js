@@ -2,47 +2,47 @@ const myList = [
   {
     ClassIdSQL: 'BSN',
     ClassName: 'Business Class',
-    ClassDesc: NULL
+    ClassDesc: ' '
   },
   {
     ClassIdSQL: 'DBL',
     ClassName: 'Double',
-    ClassDesc: NULL
+    ClassDesc: ' '
   },
   {
     ClassIdSQL: 'DLX',
     ClassName: 'Delux',
-    ClassDesc: NULL
+    ClassDesc: ' '
   },
   {
     ClassIdSQL: 'ECN',
     ClassName: 'Economy',
-    ClassDesc: NULL
+    ClassDesc: ' '
   },
   {
     ClassIdSQL: 'FST',
     ClassName: 'First Class',
-    ClassDesc: NULL
+    ClassDesc: ' '
   },
   {
     ClassIdSQL: 'INT',
     ClassName: 'Interior',
-    ClassDesc: NULL
+    ClassDesc: ' '
   },
   {
     ClassIdSQL: 'NA',
     ClassName: 'Not Applicable',
-    ClassDesc: NULL
+    ClassDesc: ' '
   },
   {
     ClassIdSQL: 'OCNV',
     ClassName: 'Ocean View',
-    ClassDesc: NULL
+    ClassDesc: ' '
   },
   {
     ClassIdSQL: 'SNG',
     ClassName: 'Single',
-    ClassDesc: NULL
+    ClassDesc: ' '
   }
 ];
 

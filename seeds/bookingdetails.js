@@ -1335,21 +1335,6 @@ const myList = [
     ProductSupplierIdSQL: 45
   },
   {
-    BookingDetailIdSQL: 689,
-    ItineraryNo: 570,
-    TripStart: '2000-03-14 00:00:00.000000',
-    TripEnd: '2000-04-05 00:00:00.000000',
-    Description: 'Calgary,  Toronto,
-    Destination: Montreal,
-    BasePrice:  Ottawa t',
-    AgencyCommission: 'Canada',
-    BookingIdSQL: 3550.0000,
-    RegionIdSQL: 133.1250,
-    ClassIdSQL: 776,
-    FeeIdSQL: 'NA',
-    ProductSupplierIdSQL: 'NA'
-  },
-  {
     BookingDetailIdSQL: 709,
     ItineraryNo: 471,
     TripStart: '2000-03-08 00:00:00.000000',
@@ -1395,21 +1380,6 @@ const myList = [
     ProductSupplierIdSQL: 44
   },
   {
-    BookingDetailIdSQL: 739,
-    ItineraryNo: 1020,
-    TripStart: '2000-03-15 00:00:00.000000',
-    TripEnd: '2000-04-05 00:00:00.000000',
-    Description: 'Calgary,  Toronto,
-    Destination: Montreal,
-    BasePrice:  Ottawa t',
-    AgencyCommission: 'Canada',
-    BookingIdSQL: 3550.0000,
-    RegionIdSQL: 133.1250,
-    ClassIdSQL: 776,
-    FeeIdSQL: 'NA',
-    ProductSupplierIdSQL: 'NA'
-  },
-  {
     BookingDetailIdSQL: 740,
     ItineraryNo: 589,
     TripStart: '2000-03-13 00:00:00.000000',
@@ -1453,21 +1423,6 @@ const myList = [
     ClassIdSQL: 'NA',
     FeeIdSQL: 'BK',
     ProductSupplierIdSQL: 67
-  },
-  {
-    BookingDetailIdSQL: 826,
-    ItineraryNo: 675,
-    TripStart: '2000-03-23 00:00:00.000000',
-    TripEnd: '2000-04-17 00:00:00.000000',
-    Description: 'Calgary,  Toronto,
-    Destination: montreal,
-    BasePrice:  Ottawa t',
-    AgencyCommission: 'Canada',
-    BookingIdSQL: 4780.0000,
-    RegionIdSQL: 179.2500,
-    ClassIdSQL: 826,
-    FeeIdSQL: 'NA',
-    ProductSupplierIdSQL: 'NA'
   },
   {
     BookingDetailIdSQL: 827,
@@ -1723,36 +1678,6 @@ const myList = [
     ClassIdSQL: 'NA',
     FeeIdSQL: 'NC',
     ProductSupplierIdSQL: 47
-  },
-  {
-    BookingDetailIdSQL: 988,
-    ItineraryNo: 301,
-    TripStart: '2000-05-19 00:00:00.000000',
-    TripEnd: '2000-06-19 00:00:00.000000',
-    Description: 'cancellation/medical policy #923665',
-    Destination: 'Peru,  argentina,
-    BasePrice:  Bollivi',
-    AgencyCommission: 345.0000,
-    BookingIdSQL: 6.9000,
-    RegionIdSQL: 988,
-    ClassIdSQL: 'SA',
-    FeeIdSQL: 'NA',
-    ProductSupplierIdSQL: 'NC'
-  },
-  {
-    BookingDetailIdSQL: 990,
-    ItineraryNo: 757,
-    TripStart: '2000-05-19 00:00:00.000000',
-    TripEnd: '2000-06-19 00:00:00.000000',
-    Description: 'Peru,  Argentina,
-    Destination:  Bolivia tour',
-    BasePrice: ' ',
-    AgencyCommission: 3980.0000,
-    BookingIdSQL: 149.2500,
-    RegionIdSQL: 989,
-    ClassIdSQL: 'SA',
-    FeeIdSQL: 'NA',
-    ProductSupplierIdSQL: 'BK'
   },
   {
     BookingDetailIdSQL: 1002,

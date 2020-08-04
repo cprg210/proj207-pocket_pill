@@ -6,7 +6,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 143,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 15,
@@ -15,7 +15,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 135,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 17,
@@ -24,7 +24,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 143,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 34,
@@ -33,7 +33,7 @@ const myList = [
     TravelerCount: 2,
     CustomerIdSQL: 138,
     TripTypeIdSQL: 'G',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 46,
@@ -42,7 +42,7 @@ const myList = [
     TravelerCount: 2,
     CustomerIdSQL: 133,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 49,
@@ -51,7 +51,7 @@ const myList = [
     TravelerCount: 2,
     CustomerIdSQL: 114,
     TripTypeIdSQL: 'G',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 52,
@@ -60,7 +60,7 @@ const myList = [
     TravelerCount: 2,
     CustomerIdSQL: 133,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 55,
@@ -69,7 +69,7 @@ const myList = [
     TravelerCount: 2,
     CustomerIdSQL: 133,
     TripTypeIdSQL: 'G',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 57,
@@ -78,7 +78,7 @@ const myList = [
     TravelerCount: 2,
     CustomerIdSQL: 130,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 62,
@@ -87,7 +87,7 @@ const myList = [
     TravelerCount: 2,
     CustomerIdSQL: 130,
     TripTypeIdSQL: 'G',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 65,
@@ -96,7 +96,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 143,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 73,
@@ -105,7 +105,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 143,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 79,
@@ -114,7 +114,7 @@ const myList = [
     TravelerCount: 2,
     CustomerIdSQL: 120,
     TripTypeIdSQL: 'G',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 80,
@@ -123,7 +123,7 @@ const myList = [
     TravelerCount: 2,
     CustomerIdSQL: 122,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 84,
@@ -132,7 +132,7 @@ const myList = [
     TravelerCount: 2,
     CustomerIdSQL: 120,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 89,
@@ -141,7 +141,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 109,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 98,
@@ -150,7 +150,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 143,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 108,
@@ -159,7 +159,7 @@ const myList = [
     TravelerCount: 2,
     CustomerIdSQL: 138,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 124,
@@ -168,7 +168,7 @@ const myList = [
     TravelerCount: 2,
     CustomerIdSQL: 114,
     TripTypeIdSQL: 'G',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 138,
@@ -177,7 +177,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 109,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 141,
@@ -186,7 +186,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 143,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 148,
@@ -195,7 +195,7 @@ const myList = [
     TravelerCount: 2,
     CustomerIdSQL: 133,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 152,
@@ -204,7 +204,7 @@ const myList = [
     TravelerCount: 2,
     CustomerIdSQL: 130,
     TripTypeIdSQL: 'G',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 156,
@@ -213,7 +213,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 143,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 161,
@@ -222,7 +222,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 105,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 162,
@@ -231,7 +231,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 109,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 172,
@@ -240,7 +240,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 104,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 187,
@@ -249,7 +249,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 109,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 199,
@@ -258,7 +258,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 143,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 204,
@@ -267,7 +267,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 141,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 220,
@@ -276,7 +276,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 127,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 226,
@@ -285,7 +285,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 143,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 228,
@@ -294,7 +294,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 119,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 263,
@@ -303,7 +303,7 @@ const myList = [
     TravelerCount: 2,
     CustomerIdSQL: 120,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 264,
@@ -312,7 +312,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 135,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 266,
@@ -321,7 +321,7 @@ const myList = [
     TravelerCount: 2,
     CustomerIdSQL: 135,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 273,
@@ -330,7 +330,7 @@ const myList = [
     TravelerCount: 2,
     CustomerIdSQL: 122,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 287,
@@ -339,7 +339,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 141,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 305,
@@ -348,7 +348,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 127,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 312,
@@ -357,7 +357,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 130,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 313,
@@ -366,7 +366,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 120,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 322,
@@ -375,7 +375,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 143,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 325,
@@ -384,7 +384,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 121,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 369,
@@ -393,7 +393,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 104,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 375,
@@ -402,7 +402,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 104,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 381,
@@ -411,7 +411,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 104,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 382,
@@ -420,7 +420,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 119,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 384,
@@ -429,7 +429,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 119,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 409,
@@ -438,7 +438,7 @@ const myList = [
     TravelerCount: 2,
     CustomerIdSQL: 139,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 410,
@@ -447,7 +447,7 @@ const myList = [
     TravelerCount: 2,
     CustomerIdSQL: 140,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 425,
@@ -456,7 +456,7 @@ const myList = [
     TravelerCount: 4,
     CustomerIdSQL: 140,
     TripTypeIdSQL: 'G',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 442,
@@ -465,7 +465,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 104,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 443,
@@ -474,7 +474,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 119,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 449,
@@ -483,7 +483,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 140,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 482,
@@ -492,7 +492,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 127,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 484,
@@ -501,7 +501,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 106,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 488,
@@ -510,7 +510,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 106,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 489,
@@ -519,7 +519,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 127,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 510,
@@ -528,7 +528,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 140,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 511,
@@ -537,7 +537,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 141,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 512,
@@ -546,7 +546,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 141,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 517,
@@ -555,7 +555,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 140,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 529,
@@ -564,7 +564,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 119,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 546,
@@ -573,7 +573,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 140,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 553,
@@ -582,7 +582,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 109,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 594,
@@ -591,7 +591,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 119,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 596,
@@ -600,7 +600,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 106,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 598,
@@ -609,7 +609,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 121,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 600,
@@ -618,7 +618,7 @@ const myList = [
     TravelerCount: 2,
     CustomerIdSQL: 106,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 604,
@@ -627,7 +627,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 104,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 605,
@@ -636,7 +636,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 140,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 609,
@@ -645,7 +645,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 104,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 613,
@@ -654,7 +654,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 104,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 614,
@@ -663,7 +663,7 @@ const myList = [
     TravelerCount: 2,
     CustomerIdSQL: 104,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 618,
@@ -672,7 +672,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 119,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 622,
@@ -681,7 +681,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 106,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 631,
@@ -690,7 +690,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 130,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 665,
@@ -699,7 +699,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 140,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 676,
@@ -708,7 +708,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 104,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 677,
@@ -717,7 +717,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 140,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 682,
@@ -726,7 +726,7 @@ const myList = [
     TravelerCount: 3,
     CustomerIdSQL: 140,
     TripTypeIdSQL: 'G',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 709,
@@ -735,7 +735,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 104,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 714,
@@ -744,7 +744,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 140,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 722,
@@ -753,7 +753,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 119,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 740,
@@ -762,7 +762,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 119,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 776,
@@ -771,7 +771,7 @@ const myList = [
     TravelerCount: 2,
     CustomerIdSQL: 109,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 777,
@@ -780,7 +780,7 @@ const myList = [
     TravelerCount: 2,
     CustomerIdSQL: 143,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 798,
@@ -789,7 +789,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 143,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 805,
@@ -798,7 +798,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 143,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 826,
@@ -807,7 +807,7 @@ const myList = [
     TravelerCount: 4,
     CustomerIdSQL: 128,
     TripTypeIdSQL: 'G',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 827,
@@ -816,7 +816,7 @@ const myList = [
     TravelerCount: 2,
     CustomerIdSQL: 128,
     TripTypeIdSQL: 'G',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 838,
@@ -825,7 +825,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 141,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 852,
@@ -834,7 +834,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 127,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 857,
@@ -843,7 +843,7 @@ const myList = [
     TravelerCount: 2,
     CustomerIdSQL: 127,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 866,
@@ -852,7 +852,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 127,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 876,
@@ -861,7 +861,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 127,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 880,
@@ -870,7 +870,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 141,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 884,
@@ -879,7 +879,7 @@ const myList = [
     TravelerCount: 2,
     CustomerIdSQL: 141,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 899,
@@ -888,7 +888,7 @@ const myList = [
     TravelerCount: 2,
     CustomerIdSQL: 121,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 902,
@@ -897,7 +897,7 @@ const myList = [
     TravelerCount: 2,
     CustomerIdSQL: 121,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 910,
@@ -906,7 +906,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 114,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 939,
@@ -915,7 +915,7 @@ const myList = [
     TravelerCount: 2,
     CustomerIdSQL: 120,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 943,
@@ -924,7 +924,7 @@ const myList = [
     TravelerCount: 2,
     CustomerIdSQL: 140,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 960,
@@ -933,7 +933,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 122,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 973,
@@ -942,7 +942,7 @@ const myList = [
     TravelerCount: 2,
     CustomerIdSQL: 133,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 988,
@@ -951,7 +951,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 139,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 989,
@@ -960,7 +960,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 139,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 1001,
@@ -969,7 +969,7 @@ const myList = [
     TravelerCount: 2,
     CustomerIdSQL: 133,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 1034,
@@ -978,7 +978,7 @@ const myList = [
     TravelerCount: 2,
     CustomerIdSQL: 105,
     TripTypeIdSQL: 'G',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 1047,
@@ -987,7 +987,7 @@ const myList = [
     TravelerCount: 2,
     CustomerIdSQL: 105,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 1067,
@@ -996,7 +996,7 @@ const myList = [
     TravelerCount: 2,
     CustomerIdSQL: 117,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 1073,
@@ -1005,7 +1005,7 @@ const myList = [
     TravelerCount: 2,
     CustomerIdSQL: 117,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 1075,
@@ -1014,7 +1014,7 @@ const myList = [
     TravelerCount: 2,
     CustomerIdSQL: 123,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 1089,
@@ -1023,7 +1023,7 @@ const myList = [
     TravelerCount: 2,
     CustomerIdSQL: 142,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 1105,
@@ -1032,7 +1032,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 119,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 1141,
@@ -1041,7 +1041,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 120,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 1165,
@@ -1050,7 +1050,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 127,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 1178,
@@ -1059,7 +1059,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 118,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 1187,
@@ -1068,7 +1068,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 143,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 1192,
@@ -1077,7 +1077,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 109,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 1194,
@@ -1086,7 +1086,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 141,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 1202,
@@ -1095,7 +1095,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 135,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 1206,
@@ -1104,7 +1104,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 121,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 1207,
@@ -1113,7 +1113,7 @@ const myList = [
     TravelerCount: 2,
     CustomerIdSQL: 135,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 1228,
@@ -1122,7 +1122,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 106,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 1230,
@@ -1131,7 +1131,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 107,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 1240,
@@ -1140,7 +1140,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 127,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 1248,
@@ -1149,7 +1149,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 141,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 1251,
@@ -1158,7 +1158,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 130,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 1254,
@@ -1167,7 +1167,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 130,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 1270,
@@ -1176,7 +1176,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 130,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 1293,
@@ -1185,7 +1185,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 130,
     TripTypeIdSQL: 'L',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 1301,
@@ -1194,7 +1194,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 127,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 1302,
@@ -1203,7 +1203,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 141,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   },
   {
     BookingIdSQL: 1303,
@@ -1212,7 +1212,7 @@ const myList = [
     TravelerCount: 1,
     CustomerIdSQL: 127,
     TripTypeIdSQL: 'B',
-    PackageIdSQL: NULL
+    PackageIdSQL: 0
   }
 ];
 

@@ -2,37 +2,37 @@ const myList = [
   {
     AffiliationIdSQL: 'ACTA',
     AffName: 'Association of Canadian Travel Agents',
-    AffDesc: NULL
+    AffDesc: ' '
   },
   {
     AffiliationIdSQL: 'ACTANEW',
-    AffName: NULL,
-    AffDesc: NULL
+    AffName: ' ',
+    AffDesc: ' '
   },
   {
     AffiliationIdSQL: 'ACTANEWP',
-    AffName: NULL,
-    AffDesc: NULL
+    AffName: ' ',
+    AffDesc: ' '
   },
   {
     AffiliationIdSQL: 'ACTAPGY',
-    AffName: NULL,
-    AffDesc: NULL
+    AffName: ' ',
+    AffDesc: ' '
   },
   {
     AffiliationIdSQL: 'NEW',
-    AffName: NULL,
-    AffDesc: NULL
+    AffName: ' ',
+    AffDesc: ' '
   },
   {
     AffiliationIdSQL: 'NEWPGY',
-    AffName: NULL,
-    AffDesc: NULL
+    AffName: ' ',
+    AffDesc: ' '
   },
   {
     AffiliationIdSQL: 'PGY',
-    AffName: NULL,
-    AffDesc: NULL
+    AffName: ' ',
+    AffDesc: ' '
   }
 ];
 
