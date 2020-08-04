@@ -1,0 +1,42 @@
+/* This css is for the destination-single page where the larger single images are displayed */
+
+/* let the main part display as a flex and properties attibuted */
+.large-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 5px;
+}
+
+/* description of each large image given border and styled */
+h5{
+  border: 1px solid black;
+  border-radius: 10px;
+  border-style: dotted;
+
+  text-align: center;
+  width: 200px;
+  margin: 20px;
+  font-size: 1rem;
+}
+
+/* Media Query for mobile menu view*/
+@media only screen and (max-width: 720px) {   
+
+  /* adjust flex direction */
+  .large-images{
+    flex-direction: column;
+  }
+
+  /* increase width of image description */
+  h5{
+    width: 420px;
+  }
+
+  /* reduce image size */
+  .large-images img{
+    height: 300px;
+    width: 420px;
+  }
+}

@@ -1,0 +1,374 @@
+/* Author: Titilope Raheem
+   Date: 26th July 2020
+   Course module: CPRG-210-XM1 - Web Application Development
+   Assignment 3 - Node Final*/
+
+/* Navigation styling and setup */
+.navbar {
+  justify-content: end;
+}
+ 
+/* align the unordered list in the flexbox */
+.navbar ul {
+  align-items: center;
+}
+ 
+/* Media Query for mobile view */
+@media only screen and (max-width: 720px) {   
+
+  .nav{
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar ul {
+    transition: all 200ms ease-in-out;
+    z-index: 2;
+  }
+    
+  #contact {
+    flex-direction: column;
+  } 
+   
+}
+
+/* styling the hero section */
+.hero-section {
+  background-image: url("https://picsum.photos/id/130/200/300");
+
+  /* Set a specific height */
+  height: 100vh;
+
+  /* Position and center the image on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Style hero section text*/
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(53, 46, 46);
+}
+
+/* style h1 text accordingly */
+h1{
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* style paragraph text in hero-section accordingly */
+p{
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+/* stlye companylogo layout*/
+.companylogo{
+  width: 150px;
+  height: 100px;
+  padding: 5px;
+
+  /* give company logo a cursor state */
+  cursor: pointer;
+
+  /* give company logo appropriate margin */
+  margin: 0; 
+}
+
+/* add a color to a word on the h1 text and the current year on the footer */
+span{
+  color: rgb(105, 69, 48);
+}
+
+/* Style the website goal (button) - sign up here*/
+.web-goal{
+  width:150px;
+  font-weight:bold;
+  padding: 10px;
+
+  /* give the text a distinct color */
+  color: rgb(212, 35, 35);
+
+  /* give the button a border */
+  border: 2px solid black;
+
+  /* remove underline from the link */
+  text-decoration: none;
+
+  /* give button a distinct background */
+  transition: background-color 0.2s ease-out, color 0.2s ease-out;
+  background-color: rgb(58, 82, 148);
+}
+
+/* declare a hover and active state for the button*/
+.web-goal:hover, .web-goal:active{
+  background-image: linear-gradient(white, black);
+  color: #000;
+  transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+
+/* destination header styling and background color*/
+#explore h2{
+  text-align: center;
+  font-family: "source sans pro", sans-serif;
+  padding: 8px;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+/* make gallery a flexbox*/
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/* gallery image styling*/
+.gallery img{
+  transition: 1s;
+  padding: 8px;
+}
+
+/* declare hover state*/
+.gallery img:hover{
+  filter: grayscale(100%);
+}
+
+/* make the container for contact a flexbox */
+#contact{
+  display: flex;
+  justify-content: space-around;
+  height: auto;
+
+}
+
+/* style contact us form */
+#information {
+  background-color: rgb(144, 149, 179);
+  margin: 10px;
+  padding: 35px;
+  font-family: "source sans pro", sans-serif;
+}
+
+/* style contact form title (h2 and h4) text */
+#contact h2{
+  text-align: start;
+  font-size: 1.7em;
+  margin: 20px 0;
+  padding-left: 0;
+  color: #84468a;
+}
+
+#contact h4{
+  font-size: 1em;
+  color: #7a4e7e;
+}
+
+/* let users know the field is required*/
+label.required ::after{
+  content: '*';
+  color: red;
+}
+
+/* style input fields on the contact form*/
+
+#information input[type="text"],
+#information input[type="email"],
+#information input[type="tel"],
+#information select,
+#information textarea {
+  width: 95%;
+  margin-bottom: 16px;
+  padding: 20px;
+
+  /* give the input fields a border */
+  border: 1px solid lightblue;
+  border-radius: 5px;
+
+  /* give input fields a background */
+  background: rgb(248, 246, 246);
+  
+}
+
+/* style contact form submit button */
+#information button[type="submit"] {
+  margin-top: 10px;
+  padding: 10px;
+  width: 30%;
+
+  /* give background  and border*/
+  background: #84468a;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+p{
+  font-weight: bold;
+}
+
+.address{
+  display: block;
+  margin: 10px;
+  padding: 20px 20px;
+  border: 1px solid grey;
+}
+
+h2{
+  text-align: center;
+  margin: 10px 0;
+}
+img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.packageSlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.before,
+.after {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.after {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.before:hover,
+.after:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.number {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.title-container {
+  text-align: center;
+  background-color: rgb(134, 130, 130);
+  padding: 2px 16px;
+  color: rgba(20, 24, 23, 0.493);
+} 
+#title{
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+.package1, .package2, .package3, .package4, .package5, .package6{
+  border: 1px solid black;
+  border-radius: 10px;
+  
+  padding: 15px;
+ 
+}
+.price{
+  display: flex;
+  margin-top: 20px;
+}
+.pricetag{
+  display: flex;
+}
+button{
+  margin: 10px 50px;
+}
+
+.packages{
+  display: grid;
+  grid-template-columns: 20px 1fr 1fr 1fr 20px;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.packages{
+  grid-template-areas: 
+  ". package1 package2 package3 ."
+  ". package4 package5 package6 .";
+}
+
+.package1{
+  grid-area: package1;
+}
+.package2{
+  grid-area: package2;
+}
+.package3{
+  grid-area: package3;
+}
+.package4{
+  grid-area: package4;
+}
+.package5{
+  grid-area: package5;
+}
+.package6{
+  grid-area: package6;
+}
+h3{
+  margin-top: 20px;
+}
+
+
