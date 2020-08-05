@@ -24,7 +24,7 @@ const myList = [
     PkgName: 'Secluded Lakefront Cabin',
     PkgStartDate: '2020-05-01 00:00:00.000000',
     PkgEndDate: '2020-10-14 00:00:00.000000',
-    PkgDesc: 'A hike in, hike out trip to the wilderness',
+    PkgDesc: "A hike in, hike out trip to the wilderness",
     PkgFileName: '1051-lakefront.jpg',
     PkgBasePrice: 3000.0000,
     PkgAgencyCommission: 280.0000
@@ -34,7 +34,7 @@ const myList = [
     PkgName: 'Northshore Backpacking',
     PkgStartDate: '2020-05-01 00:00:00.000000',
     PkgEndDate: '2020-11-14 00:00:00.000000',
-    PkgDesc: 'This secluded adventure takes travellers to the north shores of Vancouver Island. Where travelers can be absorbed by the majesty and wonder of these old growth forests and secluded, one of a kind, sightseeing opportunities.',
+    PkgDesc: "This secluded adventure takes travellers to the north shores of Vancouver Island. Where travelers can be absorbed by the majesty and wonder of these old growth forests and secluded, one of a kind, sightseeing opportunities.",
     PkgFileName: '1049-northshore.jpg',
     PkgBasePrice: 3000.0000,
     PkgAgencyCommission: 280.0000
