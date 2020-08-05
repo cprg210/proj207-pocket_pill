@@ -7,6 +7,7 @@
   <%- include('./partials/css-global'); %>
   <link rel="stylesheet" href="/css/index.css">
   <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/popup.css">
 </head>
 
 <body>
@@ -94,7 +95,25 @@
  
     
   </main>
-  
+
+  <!-- the actual interesting bit -->
+<div class="lightbox">
+  <div class="iframeContainer">
+    <div class="toolbarLB">
+      <span class="closeLB" onclick="lightBoxClose()">x</span>
+    </div>
+    <h2>Welcome! We've got you covered</h2>
+    <iframe src="http://picsum.photos/id/1019/1000/200" width="500" height="100" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+    allowTransparency="true"></iframe>
+    <p class= "pop"> Planning to get back out there? Discover where to go</p>
+    <button>Browse Packages</button>
+    <p>Already a member?</p>
+    <button>Sign in here</button>
+    
+  </div>
+</div>
+
+    
   <!--Footer will be below the page-->
   <%- include('./partials/foot'); %>
 

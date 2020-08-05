@@ -71,3 +71,10 @@ fetch('https://dry-bayou-50613.herokuapp.com/api/images')
         dots[slideIndex-1].className += " active";
         captionText.innerHTML = dots[slideIndex-1].alt;
       }
+
+  
+    // popup window//
+    lightBoxClose = function() {
+    document.querySelector(".lightbox").classList.add("closed");
+  }
+  
