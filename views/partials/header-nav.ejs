@@ -16,30 +16,26 @@
 
       <!--Navigation links-->
       <ul class="nav no">
-        <li class="nav-link">
-          <a <%if (current=="home")
-          {%>class="current"<%}%> href="/">Home</a>
-        </li>
 
         <!--A current state is used in this partial to make the active link current-->
         <li class="nav-link">
           <a <%if (current=="about")
-          {%>class="current"<%}%> href="/about.html">About Us</a>
+          {%>class="current"<%}%> href="/about">About Us</a>
         </li><li class="nav-link">
           <a <%if (current=="explore")
-          {%>class="current"<%}%> href="/explore.html">Explore</a>
+          {%>class="current"<%}%> href="/explore">Explore</a>
         </li>
         <li class="nav-link">
           <a <%if (current=="contact")
-          {%>class="current"<%}%> href="/contact.html">Contact Us</a>
+          {%>class="current"<%}%> href="/contact">Contact Us</a>
         </li>
         <li class="nav-link">
           <a <%if (current=="login")
-          {%>class="current"<%}%> href="/login.html">Login</a>
+          {%>class="current"<%}%> href="/login">Login</a>
         </li>
         <li class="nav-link">
           <a <%if (current=="register")
-          {%>class="current"<%}%> href="/register.html">Register</a>
+          {%>class="current"<%}%> href="/register">Register</a>
         </li>
       </ul>
       <ul class= nav-icon>

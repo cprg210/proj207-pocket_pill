@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <%- include('./partials/head'); %> 
+  <title>Travel Experts Agency Website - Home Page</title>
+  <%- include('./partials/css-global'); %>
+  <link rel="stylesheet" href="/css/index.css">
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+  
+  <!--This section contains the navigation bar which will be at the top of the page-->
+  <%- include('./partials/header-nav', {current:"Home"}); %>
+  
+  <main>
+
+
+    <h2>Order Summery</h2>
+
+    <div>
+      <ul>
+        <li>*Package Name*</li>
+        <li>*Price Total</li>
+        <li>*Customer Id Record*</li>
+        <li>*Booking Id Number*</li>
+      </ul>
+    </div>
+
+    <h2><a href="/">Return to Homepage</a></h2>
+    
+
+
+ 
+    
+  </main>
+  
+  <!--Footer will be below the page-->
+  <%- include('./partials/foot'); %>
+
+  <!--This contains the javascript for hamburger menu and image gallery array for each loop-->
+  <%- include('./partials/gallery-js'); %>
+</body>
+</html>

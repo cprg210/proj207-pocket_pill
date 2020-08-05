@@ -50,33 +50,45 @@ app.get('/', function(request, response){
 })
 
 // Setup GET endpoint handler for login page.
-app.get('/login.html', function(request, response){
+app.get('/login', function(request, response){
   response.render('login',{});
 })
 
 // Setup GET endpoint handler for register page.
-app.get('/register.html', function(request, response){
+app.get('/register', function(request, response){
   response.render('register',{});
 })
 
 // Setup GET endpoint handler for contact us page.
-app.get('/contact.html', function(request, response){
+app.get('/contact', function(request, response){
   response.render('contact',{});
 })
 
 // Setup GET endpoint handler for destination gallery page.
-app.get('/explore.html', function(request, response){
+app.get('/explore', function(request, response){
   response.render('explore',{});
 })
 
 // Setup GET endpoint handler for destination gallery page.
-app.get('/about.html', function(request, response){
+app.get('/about', function(request, response){
   response.render('about',{});
 })
 
 // Setup GET endpoint handler for destination gallery page.
-app.get('/order.html', function(request, response){
+app.get('/order', function(request, response){
   response.render('order',{});
+})
+
+app.get('/summery', function(request, response){
+  response.render('order-summery',{});
+})
+
+app.get('/destination', function(request, response){
+  response.render('destination-single',{});
+})
+
+app.get('/experience', function(request, response){
+  response.render('experience',{});
 })
 
 // Define an endpoint handler for the individual destination pages
