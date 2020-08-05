@@ -74,7 +74,7 @@ fetch('https://dry-bayou-50613.herokuapp.com/api/images')
 
   
     // popup window//
-    lightBoxClose = function() {
-    document.querySelector(".lightbox").classList.add("closed");
+    popupBoxClose = function() {
+    document.querySelector(".popupBox").classList.add("closed");
   }
   

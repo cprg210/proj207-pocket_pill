@@ -2,7 +2,8 @@ body {
   margin: 0;
   background-color: #EBB;
 }
-.lightbox {
+
+.popupBox {
   position: fixed;
   top: 0;
   bottom: 0;
@@ -11,31 +12,40 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  /*background: rgba(0, 0, 0, .5)*/
 }
-.toolbarLB {
+
+img{
+  border:none;
+  overflow:hidden;
+}
+.toolbar {
   text-align: right;
   padding: 3px;
   font-size: 2rem;
 }
-.closeLB {
+
+.close {
   color: red;
   cursor: pointer;
 }
-.lightbox .iframeContainer {
+
+.popupBox .popContainer {
   vertical-align: middle;
   background: rgb(241, 238, 240);
   padding: 2px;
 }
-.lightbox.closed {
+
+.popupBox.closed {
   display: none;
 }
+
 button{
   margin: 5px;
   padding: 10px;
   background-color: rgb(110, 120, 139);
   text-align: center;
 }
+
 .pop{
   color: blue;
   text-align: center;
