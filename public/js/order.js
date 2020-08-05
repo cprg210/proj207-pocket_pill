@@ -28,6 +28,7 @@ fetch('http://localhost:3000/api/images')
         <img src="./images/small/${item.PkgFileName}" alt="${item.PkgName}">
         </a>
         <figcaption>${item.PkgName}!</figcaption>
+        <figcaption>${item.PkgDesc}</figcaption>
       </figure>`;
   });
          
@@ -46,4 +47,3 @@ fetch('http://localhost:3000/api/images')
     popupBoxClose = function() {
     document.querySelector(".popupBox").classList.add("closed");
   }
-  

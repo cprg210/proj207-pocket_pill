@@ -10,6 +10,7 @@ const cors = require('cors');
 const Packages = require('./models/package.js');
 
 
+
 // Hide creds from repo
 const mongoDB = process.env.MONGODB_URL;
 
@@ -108,6 +109,13 @@ app.get('/:id', function(request, response){
   });
 })
 
+
+ app.get('/api/images', function(request, response) {
+  Packages.find(function(error, result) {
+    response.json(result);
+  });
+});
+
 // Created an api using postmaster (no EJS here) called thisyear which will be fetched.
 // this is the endpoint for current year using moment dependency (./public/js/thisyear.js)
 app.get('/api/thisyear', function(request, response){
@@ -120,7 +128,7 @@ app.get('/api/images', function(request, response){
 
   // response.json(destinations);
 
-  Packages.find({PackageIDSQL: { $gte: 4 }}, function(error, images) { 
+  Packages.find(function(error, images) { 
     response.json(images);
   });
 
