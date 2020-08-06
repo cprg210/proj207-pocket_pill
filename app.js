@@ -6,9 +6,21 @@ const mongoose = require('mongoose');
 const dotenv = require('dotenv').config();
 const moment = require('moment');
 const cors = require('cors');
+const session = require('express-session');
+const bcrypt = require('bcryptjs');
+
 
 const Packages = require('./models/package.js');
+const Customer = require('./models/customer.js');
 
+// create express app
+const app = express();
+
+// EJS still needs to be installed via NPM
+app.set('view engine', 'ejs');
+
+// Express body parser
+app.use(express.urlencoded({ extended: true }));
 
 
 // Hide creds from repo
@@ -27,12 +39,6 @@ db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 db.once('open', function() {
   console.log('Connected to DB...');
 });
-
-// create express app
-const app = express();
-
-// EJS still needs to be installed via NPM
-app.set('view engine', 'ejs');
 
 // cors origin URL - Allow inbound traffic from origin
 corsOptions = {
@@ -129,6 +135,110 @@ app.get('/api/images', function(request, response){
   });
 
 })
+
+
+// *****************************************************
+// Use session to save data
+// *****************************************************
+app.use(
+  session({
+    secret: 'ssshhhhhh',
+    resave: true,
+    saveUninitialized: true
+  })
+);
+
+// *****************************************************
+// Post handler to save registration data into database
+// *****************************************************
+app.post('/register', (req, res) => {
+  let { username, email, password1, password2, subscription } = req.body;
+  // console.log(username, email, password1, password2, subscription);
+  if (subscription === 'on') subscription = true;
+  else subscription = false;
+  let errors = [];
+  if (!username || !email || !password1 || !password2) {
+    errors.push({ msg: 'Please enter all fields' });
+  }
+  if (password1 != password2) {
+    errors.push({ msg: 'Passwords do not match' });
+  }
+  if (password1.length < 2) {
+    errors.push({ msg: 'Password must be at least 2 characters' });
+  }
+  if (errors.length > 0) {
+    res.render('register', {
+      errors
+    });
+  } else {
+    Customer.findOne({ CustEmail: email }).then(user => {
+      if (user) {
+        errors.push({ msg: 'Email already exists in database' });
+        res.render('register', {
+          errors
+        });
+      } else {
+        const newCustomer = new Customer({
+          CustFirstName: username,
+          CustEmail: email,
+          CustPass: password1,
+          CustSubscribed: subscription
+        });
+
+        bcrypt.genSalt(10, (err, salt) => {
+          bcrypt.hash(newCustomer.CustPass, salt, (err, hash) => {
+            if (err) throw err;
+            newCustomer.CustPass = hash;
+            newCustomer
+              .save()
+              .then(user => {
+                sess = req.session;
+                sess.message = 'registrated successfully';
+                res.redirect('login');
+              })
+              .catch(err => console.log(err));
+          });
+        });
+      }
+    });
+  }
+});
+
+// *******************************************************
+// Post handler to check log in information from database
+// *******************************************************
+app.post('/login', (req, res) => {
+  const { email, password } = req.body;
+  let errors = [];
+  // Match user
+  Customer.findOne({
+    CustEmail: email
+  }).then(user => {
+    if (!user){
+      errors.push({ msg: 'The Email is not registrated' });
+      res.render('login', {
+        errors,
+        name: "login"
+      });
+    }
+    // Match password
+    else{
+      bcrypt.compare(password, user.CustPass, (err, isMatch) => {
+      if (err) throw err;
+      if (!isMatch) {
+        errors.push({ msg: 'The password is wrong' });
+        res.render('login', {
+          errors,
+          name: "login"
+        });
+      } else {
+        res.redirect('/explore');
+        }
+      });
+    }   
+  });
+});
+
 
 // if no file or endpoint found, send custom 404-page as a response to the browser
 app.use(function(req, res) {

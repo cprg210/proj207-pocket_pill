@@ -1,7 +1,9 @@
+// All records from the client's old database are in the seed file and will be imported into MongoDB.
+
 const myList = [
   {
     EmpFirstName: 'Janet',
-    EmpMiddleInitial: ' ',
+    EmpMiddleInitial: null,
     EmpLastName: 'Delton',
     EmpBusPhone: '(403) 210-7801',
     EmpEmail: 'janet.delton@travelexperts.com',
@@ -9,7 +11,7 @@ const myList = [
   },
   {
     EmpFirstName: 'Judy',
-    EmpMiddleInitial: ' ',
+    EmpMiddleInitial: null,
     EmpLastName: 'Lisle',
     EmpBusPhone: '(403) 210-7802',
     EmpEmail: 'judy.lisle@travelexperts.com',
@@ -25,7 +27,7 @@ const myList = [
   },
   {
     EmpFirstName: 'John',
-    EmpMiddleInitial: ' ',
+    EmpMiddleInitial: null,
     EmpLastName: 'Coville',
     EmpBusPhone: '(403) 210-7823',
     EmpEmail: 'john.coville@travelexperts.com',
@@ -57,7 +59,7 @@ const myList = [
   },
   {
     EmpFirstName: 'Jane',
-    EmpMiddleInitial: ' ',
+    EmpMiddleInitial: null,
     EmpLastName: 'Merrill',
     EmpBusPhone: '(403) 210-7868',
     EmpEmail: 'jane.merrill@travelexperts.com',

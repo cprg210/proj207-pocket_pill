@@ -1,3 +1,5 @@
+// All records from the client's old database are in the seed file and will be imported into MongoDB.
+
 const myList = [
   {
     CustomerIdSQL: 104,

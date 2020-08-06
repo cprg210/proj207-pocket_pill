@@ -1,0 +1,10 @@
+<% if(typeof errors != 'undefined'){ %> <% errors.forEach(function(error) { %>
+    <%= error.msg %>
+    <p>
+  <% }); %>
+<% } %>
+
+<% if(typeof xpage_message != 'undefined'){ %>
+  <%= xpage_message %>
+  <p></p>
+<% } %>

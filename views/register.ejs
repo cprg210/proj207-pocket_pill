@@ -16,33 +16,33 @@
   <main>
     <!--This section contains a registration form for users sign up-->
     <div id="register">
-      
+      <%- include('./partials/messages.ejs'); %>
       <!--Registration form using fieldset, legend, label and input type-->
-      <form action="https://formspree.io/xgennzer" method="POST">
+      <form action="/register" method="POST">
         <fieldset>
           <legend></legend>
-          <label class="required"><span>Name</span>
-            <input type="text" placeholder="Enter full name" required>
+          <label for="username" class="required"><span>Name</span>
+            <input type="text" name="username" id="username" placeholder="Enter full name" required>
           </label>    
-          <label class="required"><span>Email</span>
-            <input type="email" placeholder="Enter full name" required>
+          <label for="email" class="required"><span>Email</span>
+            <input type="email" name="email" id="email" placeholder="Enter full name" required>
           </label>                  
           <label class="required">
             <span>Phone</span>
             <input type="tel" placeholder="Enter phone number (including country and area code)">
           </label>
-          <label class="required">
+          <label for="password1" class="required">
             <span>Password</span>
 
             <!--Minimum password length defined-->
-            <input type="password" placeholder="Password should be minimum of 8 characters" minlength="8" required>
+            <input type="password" name="password1" id="password1" placeholder="Password should be minimum of 8 characters" minlength="8" required>
           </label>
-          <label class="required">
+          <label for="password2" class="required">
             <span>Confirm Password</span>
-            <input type="password" placeholder="same as entered above" minlength= "8" required>
+            <input type="password" name="password2" id="password2" placeholder="same as entered above" minlength= "8" required>
           </label>
-          <label class= "checkbox">Subscribe to Newsletter <span class="checkmark"></span>
-            <input type="checkbox">
+          <label for="subscription" class= "checkbox">Subscribe to Newsletter <span class="checkmark"></span>
+            <input type="checkbox" name="subscription" id="subscription">
           </label>     
         </fieldset>
 

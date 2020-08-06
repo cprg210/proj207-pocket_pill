@@ -1,3 +1,6 @@
+// Model definition for customer, based on the client's old database.
+// CustPass was added below to store hash-ed customer's password.
+
 const mongoose = require('mongoose');
 
 const mySchema = new mongoose.Schema(
@@ -14,6 +17,7 @@ const mySchema = new mongoose.Schema(
     CustBusPhone: String,
     CustEmail: String,
     CustPass: String,
+    CustSubscribed: Boolean,
     AgentIdSQL: Number
   }
 );
