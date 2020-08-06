@@ -20,15 +20,16 @@
     <!--card design is used for each image and caption-->
     <button>Book Now</button>
     <figure>
-      <img src="http://picsum.photos/id/<%= id %>/650/483" alt="<%= name %>">
-      <figcaption>Visit <%= tourIdea %> in <%= name %>!</figcaption>
+      <img src="./images/small/<%= PkgFileName %>" alt="<%= PkgName %>">
+      <figcaption><%= PkgName %></figcaption>
     </figure>
 
     <!--This contains the description for each image as stored in the database-->
-    <h5><%= description %></h5>
-    <h5><%= startDate %></h5>
-    <h5><%= endDate %></h5>
-    <h5><%= packagePrice %></h5>
+    <h5><%= PkgDesc %></h5>
+    <h5><%= PkgStartDate %></h5>
+    <h5><%= PkgEndDate %></h5>
+    <h5><%= PkgBasePrice %></h5>
+    <button>Book Now</button>
   </main>
   
   <!--Footer will be below the page-->

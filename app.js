@@ -84,10 +84,6 @@ app.get('/summery', function(request, response){
   response.render('order-summery',{});
 })
 
-app.get('/destination', function(request, response){
-  response.render('destination-single',{});
-})
-
 app.get('/experience', function(request, response){
   response.render('experience',{});
 })
@@ -97,7 +93,7 @@ app.get('/:id', function(request, response){
 
   // model.findOne returns the first object it finds
   // model.find will always return an array, even if it only finds one 
-  Packages.findOne({'id': request.params.id}, function(error, destination) {
+  Packages.findOne({'PackageIdSQL': request.params.id}, function(error, destination) {
   
     // Check for IDs that are not in our list and render custom 404 page
      if (!destination) {
