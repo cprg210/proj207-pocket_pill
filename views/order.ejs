@@ -7,20 +7,19 @@
   <%- include('./partials/css-global'); %>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="/css/order.css">
-  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="">
 </head>
 
 <body>
   
   <!--This section contains the navigation bar which will be at the top of the page-->
-  <%- include('./partials/header-nav', {current:"explore"}); %>
+  <%- include('./partials/header-nav', {current:""}); %>
 
   <main>
     <!--This section contains a registration form for users sign up-->
     <div id="order">
       
       <!--Registration form using fieldset, legend, label and input type-->
-      <h2>Online Order</h2>
       <div class="row">
         <div class="col-75">
           <div class="container">
@@ -53,8 +52,19 @@
                 <div class="col-50">
                   <h3>Package Details</h3>
                   <label for="cname">Package name</label>
-                  <input type="text" id="cname" name="cardname" placeholder="Enter the name of the vacation package chosen">
-                  <label for="ccnum">Package ID</label>
+                    <select id="cname" name="Cardname">
+                       <option value= 0>Select a vacation package</option>
+                       <option value="5">Tofino Surf and Hike</option>
+                       <option value="6">California Wine Tours</option>
+                       <option value="7">Secluded Lakefront Cabin</option>
+                       <option value="8">Northshore Backpacking</option>
+                       <option value="9">Waterfall Lake Fly-In</option>
+                       <option value="10">Foothills Horseback Riding</option>
+                     </select>
+                   </label>
+                  
+                  
+                   <label for="ccnum">Package ID</label>
                   <input type="text" id="ccnum" name="cardnumber" placeholder="Enter package ID">
                   <label for="expmonth">Date of Travel</label>
                   <input type="date" id="expmonth" name="expmonth" placeholder="">
@@ -73,17 +83,6 @@
               </div>
               <input type="submit" value="Continue to Payment" class="btn">
             </form>
-          </div>
-        </div>
-        <div class="col-25">
-          <div class="container">
-            <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>4</b></span></h4>
-            <p><a href="#">Product 1</a> <span class="price">$15</span></p>
-            <p><a href="#">Product 2</a> <span class="price">$5</span></p>
-            <p><a href="#">Product 3</a> <span class="price">$8</span></p>
-            <p><a href="#">Product 4</a> <span class="price">$2</span></p>
-            <hr>
-            <p>Total <span class="price" style="color:black"><b>$30</b></span></p>
           </div>
         </div>
       </div>

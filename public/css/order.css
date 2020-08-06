@@ -8,6 +8,41 @@ body {
   box-sizing: border-box;
 }
 
+/* Navigation styling and setup*/
+.head-wrap {
+  width: 100%;
+}
+  
+.nav-wrap {
+  position: sticky;
+}
+ 
+/* give navbar flex properties */
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Company Title styling*/
+h3{
+  cursor: pointer;
+  margin-right: auto;
+}
+
+/* Company logo on navbar styling */
+.navbar img {
+  height: 50px;
+  width: 100px;
+  margin-left: 20px;
+  
+  /* move company logo to the left side */
+  justify-self: start;
+  
+  /* give logo a cursor state */
+  cursor: pointer;
+}
+ 
+
 .row {
   display: -ms-flexbox; /* IE10 */
   display: flex;
@@ -44,7 +79,7 @@ body {
   border-radius: 3px;
 }
 
-input[type=text] {
+input[type=text], input[type=date], select {
   width: 100%;
   margin-bottom: 20px;
   padding: 12px;
@@ -64,7 +99,7 @@ label {
 }
 
 .btn {
-  background-color: #4CAF50;
+  background-color: #794686;
   color: white;
   padding: 12px;
   margin: 10px 0;
