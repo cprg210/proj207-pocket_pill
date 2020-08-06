@@ -1,6 +1,26 @@
 /* This css is for the destination-single page where the larger single images are displayed */
 
 /* let the main part display as a flex and properties attibuted */
+.destination-single figure a button {
+  text-emphasis: none;
+  text-decoration: none;
+  font-size: 32px;
+
+  background-color: transparent;
+  border: 2px solid transparent;
+  color: #110011;
+}
+
+.destination-single figure a button:hover {
+  text-emphasis: none;
+  text-decoration: none;
+  font-size: 32px;
+
+  background-color: transparent;
+  border: 2px solid #110011;
+  color: #110011;
+}
+
 .large-images {
   display: flex;
   justify-content: center;
