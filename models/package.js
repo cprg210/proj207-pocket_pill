@@ -1,3 +1,5 @@
+// Model definition for package, based on the client's old database.
+
 const mongoose = require('mongoose');
 
 const mySchema = new mongoose.Schema(
@@ -8,8 +10,8 @@ const mySchema = new mongoose.Schema(
     PkgEndDate: Date,
     PkgDesc: String,
     PkgFileName: String,
-    PkgBasePrice: Number,
-    PkgAgencyCommission: Number
+    PkgBasePrice: mongoose.Decimal128,
+    PkgAgencyCommission: mongoose.Decimal128
   }
 );
 

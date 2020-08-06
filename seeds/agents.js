@@ -1,8 +1,10 @@
+// All records from the client's old database are in the seed file and will be imported into MongoDB.
+
 const myList = [
   {
     AgentIdSQL: 1,
     AgtFirstName: 'Janet',
-    AgtMiddleInitial: ' ',
+    AgtMiddleInitial: null,
     AgtLastName: 'Delton',
     AgtBusPhone: '(403) 210-7801',
     AgtEmail: 'janet.delton@travelexperts.com',
@@ -12,7 +14,7 @@ const myList = [
   {
     AgentIdSQL: 2,
     AgtFirstName: 'Judy',
-    AgtMiddleInitial: ' ',
+    AgtMiddleInitial: null,
     AgtLastName: 'Lisle',
     AgtBusPhone: '(403) 210-7802',
     AgtEmail: 'judy.lisle@travelexperts.com',
@@ -32,7 +34,7 @@ const myList = [
   {
     AgentIdSQL: 4,
     AgtFirstName: 'John',
-    AgtMiddleInitial: ' ',
+    AgtMiddleInitial: null,
     AgtLastName: 'Coville',
     AgtBusPhone: '(403) 210-7823',
     AgtEmail: 'john.coville@travelexperts.com',
@@ -72,7 +74,7 @@ const myList = [
   {
     AgentIdSQL: 8,
     AgtFirstName: 'Jane',
-    AgtMiddleInitial: ' ',
+    AgtMiddleInitial: null,
     AgtLastName: 'Merrill',
     AgtBusPhone: '(403) 210-7868',
     AgtEmail: 'jane.merrill@travelexperts.com',

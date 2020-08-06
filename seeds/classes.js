@@ -1,48 +1,50 @@
+// All records from the client's old database are in the seed file and will be imported into MongoDB.
+
 const myList = [
   {
     ClassIdSQL: 'BSN',
     ClassName: 'Business Class',
-    ClassDesc: ' '
+    ClassDesc: null
   },
   {
     ClassIdSQL: 'DBL',
     ClassName: 'Double',
-    ClassDesc: ' '
+    ClassDesc: null
   },
   {
     ClassIdSQL: 'DLX',
     ClassName: 'Delux',
-    ClassDesc: ' '
+    ClassDesc: null
   },
   {
     ClassIdSQL: 'ECN',
     ClassName: 'Economy',
-    ClassDesc: ' '
+    ClassDesc: null
   },
   {
     ClassIdSQL: 'FST',
     ClassName: 'First Class',
-    ClassDesc: ' '
+    ClassDesc: null
   },
   {
     ClassIdSQL: 'INT',
     ClassName: 'Interior',
-    ClassDesc: ' '
+    ClassDesc: null
   },
   {
     ClassIdSQL: 'NA',
     ClassName: 'Not Applicable',
-    ClassDesc: ' '
+    ClassDesc: null
   },
   {
     ClassIdSQL: 'OCNV',
     ClassName: 'Ocean View',
-    ClassDesc: ' '
+    ClassDesc: null
   },
   {
     ClassIdSQL: 'SNG',
     ClassName: 'Single',
-    ClassDesc: ' '
+    ClassDesc: null
   }
 ];
 

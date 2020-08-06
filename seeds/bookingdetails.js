@@ -1,3 +1,5 @@
+// All records from the client's old database are in the seed file and will be imported into MongoDB.
+
 const myList = [
   {
     BookingDetailIdSQL: 11,
@@ -1335,6 +1337,21 @@ const myList = [
     ProductSupplierIdSQL: 45
   },
   {
+    BookingDetailIdSQL: 689,
+    ItineraryNo: 570,
+    TripStart: '2000-03-14 00:00:00.000000',
+    TripEnd: '2000-04-05 00:00:00.000000',
+    Description: 'Calgary,  Toronto, Montreal,  Ottawa t',
+    Destination: 'Canada',
+    BasePrice: 3550.0000,
+    AgencyCommission: 133.1250,
+    BookingIdSQL: 776,
+    RegionIdSQL: 'NA',
+    ClassIdSQL: 'NA',
+    FeeIdSQL: 'BK',
+    ProductSupplierIdSQL: 46
+  },
+  {
     BookingDetailIdSQL: 709,
     ItineraryNo: 471,
     TripStart: '2000-03-08 00:00:00.000000',
@@ -1380,6 +1397,21 @@ const myList = [
     ProductSupplierIdSQL: 44
   },
   {
+    BookingDetailIdSQL: 739,
+    ItineraryNo: 1020,
+    TripStart: '2000-03-15 00:00:00.000000',
+    TripEnd: '2000-04-05 00:00:00.000000',
+    Description: 'Calgary,  Toronto, Montreal,  Ottawa t',
+    Destination: 'Canada',
+    BasePrice: 3550.0000,
+    AgencyCommission: 133.1250,
+    BookingIdSQL: 776,
+    RegionIdSQL: 'NA',
+    ClassIdSQL: 'NA',
+    FeeIdSQL: 'BK',
+    ProductSupplierIdSQL: 46
+  },
+  {
     BookingDetailIdSQL: 740,
     ItineraryNo: 589,
     TripStart: '2000-03-13 00:00:00.000000',
@@ -1423,6 +1455,21 @@ const myList = [
     ClassIdSQL: 'NA',
     FeeIdSQL: 'BK',
     ProductSupplierIdSQL: 67
+  },
+  {
+    BookingDetailIdSQL: 826,
+    ItineraryNo: 675,
+    TripStart: '2000-03-23 00:00:00.000000',
+    TripEnd: '2000-04-17 00:00:00.000000',
+    Description: 'Calgary,  Toronto, montreal,  Ottawa t',
+    Destination: 'Canada',
+    BasePrice: 4780.0000,
+    AgencyCommission: 179.2500,
+    BookingIdSQL: 826,
+    RegionIdSQL: 'NA',
+    ClassIdSQL: 'NA',
+    FeeIdSQL: 'BK',
+    ProductSupplierIdSQL: 57
   },
   {
     BookingDetailIdSQL: 827,
@@ -1678,6 +1725,36 @@ const myList = [
     ClassIdSQL: 'NA',
     FeeIdSQL: 'NC',
     ProductSupplierIdSQL: 47
+  },
+  {
+    BookingDetailIdSQL: 988,
+    ItineraryNo: 301,
+    TripStart: '2000-05-19 00:00:00.000000',
+    TripEnd: '2000-06-19 00:00:00.000000',
+    Description: 'cancellation/medical policy #923665',
+    Destination: 'Peru,  argentina,  Bollivi',
+    BasePrice: 345.0000,
+    AgencyCommission: 6.9000,
+    BookingIdSQL: 988,
+    RegionIdSQL: 'SA',
+    ClassIdSQL: 'NA',
+    FeeIdSQL: 'NC',
+    ProductSupplierIdSQL: 50
+  },
+  {
+    BookingDetailIdSQL: 990,
+    ItineraryNo: 757,
+    TripStart: '2000-05-19 00:00:00.000000',
+    TripEnd: '2000-06-19 00:00:00.000000',
+    Description: 'Peru,  Argentina,  Bolivia tour',
+    Destination: ' ',
+    BasePrice: 3980.0000,
+    AgencyCommission: 149.2500,
+    BookingIdSQL: 989,
+    RegionIdSQL: 'SA',
+    ClassIdSQL: 'NA',
+    FeeIdSQL: 'BK',
+    ProductSupplierIdSQL: 28
   },
   {
     BookingDetailIdSQL: 1002,

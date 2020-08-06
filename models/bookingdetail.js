@@ -1,3 +1,5 @@
+// Model definition for bookingdetail, based on the client's old database.
+
 const mongoose = require('mongoose');
 
 const mySchema = new mongoose.Schema(
@@ -8,8 +10,8 @@ const mySchema = new mongoose.Schema(
     TripEnd: Date,
     Description: String,
     Destination: String,
-    BasePrice: Number,
-    AgencyCommission: Number,
+    BasePrice: mongoose.Decimal128,
+    AgencyCommission: mongoose.Decimal128,
     BookingIdSQL: Number,
     RegionIdSQL: String,
     ClassIdSQL: String,

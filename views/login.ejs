@@ -17,18 +17,18 @@
     <!--This section contains a login form for log in-->
     <div class="form">
       <div id="login">
-        
+        <%- include('./partials/messages.ejs'); %>
         <!--Registration form using fieldset, legend, label and input type-->
-        <form action="https://formspree.io/xgennzer" method="POST">
+        <form action="/login" method="POST">
           <fieldset>
             <legend></legend>
-            <label class="required" >
+            <label for="email" class="required" >
               <span>Email </span>
-              <input placeholder="Enter Email Address" type="email" required>
+              <input placeholder="Enter Email Address" type="email" name="email" id="email" required>
             </label>
-            <label class="required" >
+            <label for="password" class="required" >
               <span>Password </span>
-              <input placeholder="Enter Password" type="password" minlength="8" required>
+              <input placeholder="Enter Password" type="password" name="password" id="password" minlength="8" required>
             </label>
           </fieldset>
           

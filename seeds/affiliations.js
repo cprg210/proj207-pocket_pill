@@ -1,38 +1,40 @@
+// All records from the client's old database are in the seed file and will be imported into MongoDB.
+
 const myList = [
   {
     AffiliationIdSQL: 'ACTA',
     AffName: 'Association of Canadian Travel Agents',
-    AffDesc: ' '
+    AffDesc: null
   },
   {
     AffiliationIdSQL: 'ACTANEW',
-    AffName: ' ',
-    AffDesc: ' '
+    AffName: null,
+    AffDesc: null
   },
   {
     AffiliationIdSQL: 'ACTANEWP',
-    AffName: ' ',
-    AffDesc: ' '
+    AffName: null,
+    AffDesc: null
   },
   {
     AffiliationIdSQL: 'ACTAPGY',
-    AffName: ' ',
-    AffDesc: ' '
+    AffName: null,
+    AffDesc: null
   },
   {
     AffiliationIdSQL: 'NEW',
-    AffName: ' ',
-    AffDesc: ' '
+    AffName: null,
+    AffDesc: null
   },
   {
     AffiliationIdSQL: 'NEWPGY',
-    AffName: ' ',
-    AffDesc: ' '
+    AffName: null,
+    AffDesc: null
   },
   {
     AffiliationIdSQL: 'PGY',
-    AffName: ' ',
-    AffDesc: ' '
+    AffName: null,
+    AffDesc: null
   }
 ];
 
