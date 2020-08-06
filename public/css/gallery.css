@@ -20,3 +20,14 @@
   max-width: 800px;
   margin: auto;
 }
+
+.destination-single {
+  justify-content: center;
+  text-align: center;
+}
+
+.destination-single figure {
+  justify-content: center;
+  text-align: center;
+}
+

@@ -5,6 +5,7 @@
   <%- include('./partials/head'); %> 
   <title><%= PkgName %>!</title>
   <%- include('./partials/css-global'); %>
+  
   <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="/css/single.css">
 </head>
@@ -15,21 +16,18 @@
   <%- include('./partials/header-nav', {current:"destination"}); %>
 
   <!--This is the main section containing a large image each of the images in the gallery-->
-  <main class="large-images">
+  <main class="destination-single">
     
     <!--card design is used for each image and caption-->
-    <button>Book Now</button>
     <figure>
       <img src="./images/small/<%= PkgFileName %>" alt="<%= PkgName %>">
       <figcaption><%= PkgName %></figcaption>
-    </figure>
-
-    <!--This contains the description for each image as stored in the database-->
+        <!--This contains the description for each image as stored in the database-->
     <p><%= PkgDesc %></p>
-    <h5><%= PkgStartDate %></h5> <h2>Until</h2>
-    <h5><%= PkgEndDate %></h5>
+    <p><%= PkgStartDate %> Until <%= PkgEndDate %></p>
     <h2>$<%= PkgBasePrice %></h2>
     <a href="/order"><button>Book Now</button></a>
+  </figure>
   </main>
   
   <!--Footer will be below the page-->
