@@ -11,3 +11,12 @@
   margin: 0.5em;
   max-height: 100px;
 }
+
+.agencyList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+
+  max-width: 800px;
+  margin: auto;
+}

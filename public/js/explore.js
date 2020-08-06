@@ -35,6 +35,5 @@ fetch('http://localhost:3000/api/images')
          
   // Add HTML img string to gallery container
   gallery.innerHTML = imgTemplate;
-  });
 
-  
+});
