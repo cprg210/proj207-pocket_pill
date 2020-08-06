@@ -86,8 +86,8 @@ app.get('/order', function(request, response){
   response.render('order',{});
 })
 
-app.get('/summery', function(request, response){
-  response.render('order-summery',{});
+app.get('/payment', function(request, response){
+  response.render('payment',{});
 })
 
 app.get('/experience', function(request, response){
