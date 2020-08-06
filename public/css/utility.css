@@ -1,9 +1,10 @@
 /* Navigation styling and setup */
 .nav-wrap {
   width: 100%;
+  height: 200px;
   position: -webkit-sticky;
   top: 0;
-  background-color: rgb(112, 112, 202);
+  background-color: #103e7b;
 }
 
 /* navbar flex declaration */

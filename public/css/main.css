@@ -141,7 +141,7 @@ label.required ::after{
 }
 
 /* style login button */
-#login button{
+/* #login button{
   font-family: sans-serif;
   text-transform: uppercase;
 
@@ -153,7 +153,7 @@ label.required ::after{
   padding: 15px;
   color: #ffffff;
   font-size: 14px;
-}
+} */
 
 /* declare hover state for login button */
 #login button:hover{
