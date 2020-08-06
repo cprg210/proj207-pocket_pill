@@ -27,7 +27,10 @@ body{
 h3{
   cursor: pointer;
   margin-right: auto;
-}
+ }
+ .navbar a{
+    text-decoration: none;
+  }
 
 /* Company logo on navbar styling */
 .navbar img {
