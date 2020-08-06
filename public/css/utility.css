@@ -141,3 +141,9 @@ footer{
   background: rgb(190, 201, 223);
   text-align: center;
 }
+
+footer .nav-icon {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
