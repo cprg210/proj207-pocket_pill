@@ -32,7 +32,7 @@ img{
 .popupBox .popContainer {
   text-align: center;
   vertical-align: middle;
-  background: rgb(69, 161, 186);
+  background: #38637E;
   padding: 2px;
 }
 
@@ -48,16 +48,16 @@ button{
 }
 
 .pop{
-  color: rgb(38, 38, 65);
+  color: #B5A084;
   text-align: center;
 }
 
-/* button test (Please let me know if this is the right location) */
+/* button test (Please let me know if you guys like it) */
 button{
   background:    #195e83;
   border-radius: 11px;
   padding:       15px 35px;
-  color:         #986450;
+  color:         #B5A084;
   display:       inline-block;
   font:          normal bold 26px/1 "Open Sans", sans-serif;
   text-align:    center;
