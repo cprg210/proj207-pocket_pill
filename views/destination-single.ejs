@@ -25,11 +25,11 @@
     </figure>
 
     <!--This contains the description for each image as stored in the database-->
-    <h5><%= PkgDesc %></h5>
-    <h5><%= PkgStartDate %></h5>
+    <p><%= PkgDesc %></p>
+    <h5><%= PkgStartDate %></h5> <h2>Until</h2>
     <h5><%= PkgEndDate %></h5>
-    <h5><%= PkgBasePrice %></h5>
-    <button>Book Now</button>
+    <h2>$<%= PkgBasePrice %></h2>
+    <a href="/order"><button>Book Now</button></a>
   </main>
   
   <!--Footer will be below the page-->

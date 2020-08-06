@@ -27,11 +27,14 @@ fetch('http://localhost:3000/api/images')
         <a href="${item.PackageIdSQL}">
         <img src="./images/small/${item.PkgFileName}" alt="${item.PkgName}">
         </a>
-        <figcaption>${item.PkgName}!</figcaption>
-        <figcaption>${item.PkgDesc}</figcaption>
+        <figcaption>${item.PkgName}</figcaption>
+        <p>${item.PkgStartDate} Until ${item.PkgEndDate}</p>
+        <a href="/order"><button>Book Now</button></a>
       </figure>`;
   });
          
   // Add HTML img string to gallery container
   gallery.innerHTML = imgTemplate;
   });
+
+  
