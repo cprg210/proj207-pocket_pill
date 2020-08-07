@@ -114,7 +114,7 @@ app.get('/:id', function(request, response){
 
 
 app.get('/api/images', function(request, response) {
-  Packages.find({'PkgEndDate': {$gte: moment()}}, function(error, result) {
+  Packages.find({'PkgEndDate': {$gt: moment()}, 'PkgStartDate': {$lte: moment()}}, function(error, result) {
     response.json(result);
   });
 });
