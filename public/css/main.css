@@ -28,20 +28,21 @@ h3{
   cursor: pointer;
   margin-right: auto;
  }
+
  .navbar a{
     text-decoration: none;
-  }
+ }
 
 /* Company logo on navbar styling */
 .navbar img {
   height: 150px;
   width: 200px;
-  margin-left: 40px;
+  margin-left: 20px;
   
-  /* move company logo to the left side */
+/* move company logo to the left side */
   justify-self: stretch;
   
-  /* give logo a cursor state */
+/* give logo a cursor state */
   cursor: pointer;
 }
  
