@@ -9,9 +9,11 @@ const cors = require('cors');
 const session = require('express-session');
 const bcrypt = require('bcryptjs');
 
-
+// import models
 const Packages = require('./models/package.js');
 const Customer = require('./models/customer.js');
+const Agency = require('./models/agency.js');
+const Agent = require('./models/agent.js');
 
 // create express app
 const app = express();
@@ -21,7 +23,6 @@ app.set('view engine', 'ejs');
 
 // Express body parser
 app.use(express.urlencoded({ extended: true }));
-
 
 // Hide creds from repo
 const mongoDB = process.env.MONGODB_URL;
@@ -113,7 +114,7 @@ app.get('/:id', function(request, response){
 
 
 app.get('/api/images', function(request, response) {
-  Packages.find(function(error, result) {
+  Packages.find({'PkgEndDate': {$gte: moment()}}, function(error, result) {
     response.json(result);
   });
 });
@@ -124,22 +125,16 @@ app.get('/api/agency', function(request, response) {
   });
 });
 
+app.get('/api/:agencyID', function(request, response) {
+  Agent.find({'AgencyIdSQL': request.params.agencyID}, function(error, result) {
+    response.json(result);
+  });
+});
+
 // Created an api using postmaster (no EJS here) called thisyear which will be fetched.
 // this is the endpoint for current year using moment dependency (./public/js/thisyear.js)
 app.get('/api/thisyear', function(request, response){
   response.json({year: moment().format("YYYY")});
-})
-
-// Create a JSON (no EJS here) that returns the entire destination JSON
-// This is the endpoint that the frontend gallery script calls (see: ./public/js/index.js).
-app.get('/api/images', function(request, response){
-
-  // response.json(destinations);
-
-  Packages.find(function(error, images) { 
-    response.json(images);
-  });
-
 })
 
 
@@ -169,7 +164,7 @@ app.post('/register', (req, res) => {
   if (password1 != password2) {
     errors.push({ msg: 'Passwords do not match' });
   }
-  if (password1.length < 2) {
+  if (password1.length < 8) {
     errors.push({ msg: 'Password must be at least 2 characters' });
   }
   if (errors.length > 0) {
