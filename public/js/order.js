@@ -14,27 +14,46 @@ fetch('http://localhost:3000/api/images')
     const para = document.querySelector('p');
     
     select.addEventListener('change', setPname);
+    
+    // Variable where we will store our img tags
     let package ='';
+
     function setPname() {
       const choice = select.value;
     
-      if (choice === '5') {
+      // An if statment to display selected package id and cost for package names
+      if (choice === 'a') {
        package = pkgList.find(item => item.PkgName == 'Tofino Surf and Hike');
-    
-        cost.value = '$ ' + package.PkgBasePrice.$numberDecimal
-        ;
+       cost.value = '$ ' + package.PkgBasePrice.$numberDecimal;
+       pid.value = '5';
 
-      } else if (choice === '6') {
-        pid.value = 'b';
-      } else if (choice === '7') {
-        pid.value = 'c';
-      } else if (choice === '8') {
-        pid.value = 'd';
-      } else if (choice === '9') {
-        pid.value = 'e';
-      } else if (choice === '10') {
-        pid.value = 'f';
+      } else if (choice === 'b') {
+        package = pkgList.find(item => item.PkgName == 'California Wine Tours');
+       cost.value = '$ ' + package.PkgBasePrice.$numberDecimal;
+       pid.value = '6';
+
+      } else if (choice === 'c') {
+        package = pkgList.find(item => item.PkgName == 'Secluded Lakefront Cabin');
+       cost.value = '$ ' + package.PkgBasePrice.$numberDecimal;
+       pid.value = '7';
+
+      } else if (choice === 'd') {
+        package = pkgList.find(item => item.PkgName == 'Northshore Backpacking');
+        cost.value = '$ ' + package.PkgBasePrice.$numberDecimal;
+        pid.value = '8';
+
+      } else if (choice === 'e') {
+        package = pkgList.find(item => item.PkgName == 'Waterfall Lake Fly-In');
+       cost.value = '$ ' + package.PkgBasePrice.$numberDecimal;
+       pid.value = '9';
+
+      } else if (choice === 'f') {
+        package = pkgList.find(item => item.PkgName == 'Foothills Horseback Riding');
+       cost.value = '$ ' + package.PkgBasePrice.$numberDecimal;
+       pid.value = '10';
+
       } else {
         pid.value = '';
       }
-}})
+    } 
+})
