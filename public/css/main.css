@@ -34,12 +34,12 @@ h3{
 
 /* Company logo on navbar styling */
 .navbar img {
-  height: 50px;
-  width: 100px;
-  margin-left: 20px;
+  height: 150px;
+  width: 200px;
+  margin-left: 40px;
   
   /* move company logo to the left side */
-  justify-self: start;
+  justify-self: stretch;
   
   /* give logo a cursor state */
   cursor: pointer;
@@ -117,7 +117,7 @@ label.required ::after{
   margin: 0;
 
   /* background styling */
-  background-image: url(https://picsum.photos/id/279/200/300);
+  background-image: url("/images/gear1.jpg");
   background-size: cover;
   background-position: center;
 }
