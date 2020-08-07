@@ -7,7 +7,7 @@
   <%- include('./partials/css-global'); %>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="/css/order.css">
-  <link rel="stylesheet" href="">
+  
 </head>
 
 <body>
@@ -16,77 +16,90 @@
   <%- include('./partials/header-nav', {current:""}); %>
 
   <main>
-    <!--This section contains a registration form for users sign up-->
+    <!--This section contains an order form for users booking-->
     <div id="order">
       
-      <!--Registration form using fieldset, legend, label and input type-->
+      <!--order form using form action, label for and input type-->
       <div class="row">
+
+        <!--The purpose of the class is to add flex property and padding-->
         <div class="col-75">
           <div class="container">
+
+            <!--actual order form starts here-->
             <form action="/action_page.php">
-            
+
+              <!--This slits the form into two columns-->
               <div class="row">
                 <div class="col-50">
                   <h3>Customer Details</h3>
+
+                  <!--The i classes represent icons taken from font awesome-->
                   <label for="fname"><i class="fa fa-user"></i> Full Name</label>
                   <input type="text" id="fname" name="firstname" placeholder="Enter full name">
                   <label for="email"><i class="fa fa-envelope"></i> Email</label>
                   <input type="text" id="email" name="email" placeholder="Enter email">
                   <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
                   <input type="text" id="adr" name="address" placeholder="Enter street address">
-                  <label for="city"><i class="fa fa-institution"></i> City</label>
-                  <input type="text" id="city" name="city" placeholder="Enter city">
-      
+                  
+                  <!--further splits this column into two-->
                   <div class="row">
+
+                    <!--First Column-->
+                    <div class="col-50">
+                      <label for="city"><i class="fa fa-institution"></i> City</label>
+                      <input type="text" id="city" name="city" placeholder="Enter city">
+                    </div>
+
+                    <!--second column-->
+                    <div class="col-50"> 
+                      <label for="datetravel">Date of Travel</label>
+                      <input type="date" id="datetravel" name="datetravel" placeholder="">
+                    </div>
+                  </div>
+                
+                  <!--further splits this column into two-->
+                  <div class="row">
+
+                    <!--First Column-->
                     <div class="col-50">
                       <label for="state">Province</label>
                       <input type="text" id="state" name="state" placeholder="Enter state">
                     </div>
+
+                    <!--second column-->
                     <div class="col-50">
                       <label for="zip">Postal Code</label>
                       <input type="text" id="zip" name="zip" placeholder="Enter zip">
                     </div>
                   </div>
                 </div>
-      
+
+                <!--second form column starts here-->
                 <div class="col-50">
                   <h3>Package Details</h3>
                   <label for="pname">Package name</label>
                     <select id="pname" name="packagename">
                        <option value= 0>Select a vacation package</option>
-                       <option value="5">Tofino Surf and Hike</option>
-                       <option value="6">California Wine Tours</option>
-                       <option value="7">Secluded Lakefront Cabin</option>
-                       <option value="8">Northshore Backpacking</option>
-                       <option value="9">Waterfall Lake Fly-In</option>
-                       <option value="10">Foothills Horseback Riding</option>
+                       <option value="a">Tofino Surf and Hike</option>
+                       <option value="b">California Wine Tours</option>
+                       <option value="c">Secluded Lakefront Cabin</option>
+                       <option value="d">Northshore Backpacking</option>
+                       <option value="e">Waterfall Lake Fly-In</option>
+                       <option value="f">Foothills Horseback Riding</option>
                      </select>
                    </label>
-                  
-                  
-                   <label for="pid">Package ID</label>
+                  <label for="pid">Package ID</label>
                   <input type="text" id="pid" name="packageid" placeholder="Enter package ID">
-                  <label for="datetravel">Date of Travel</label>
-                  <input type="date" id="datetravel" name="datetravel" placeholder="">
-                  <div class="row">
-                    <div class="col-50">
-                      <label for="cost">Cost</label>
-                      <input type="text" id="cost" name="cost" placeholder="">
-                    </div>
-                    <div class="col-50">
-                      <label for="tcost">Total cost</label>
-                      <input type="text" id="tcost" name="tcost" placeholder="">
-                    </div>
-                  </div>
+                  <label for="cost">Cost</label>
+                  <input type="text" id="cost" name="cost" placeholder="">
                 </div>
-                
-              </div>
+              </div>                     
               <input type="submit" value="Continue to Payment" class="btn">
             </form>
           </div>
         </div>
       </div>
-      
     </div>
   </main>
 
@@ -95,6 +108,8 @@
 
   <!--This contains the javascript for hamburger menu-->
   <script src="/js/hamburger.js"></script>
+
+  <!--This contains the javascript for order.ejs-->
   <script src="/js/order.js"></script>
 </body>
 </html>
