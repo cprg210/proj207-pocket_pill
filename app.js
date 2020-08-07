@@ -176,6 +176,7 @@ app.post('/register', (req, res) => {
       steetAddress,
       city,
       postal,
+      phone,
       password1,
       password2
     });
@@ -191,6 +192,7 @@ app.post('/register', (req, res) => {
           city,
           postal,
           provence,
+          phone,
           password1,
           password2
         });
@@ -202,6 +204,7 @@ app.post('/register', (req, res) => {
           CustCity: city,
           CustProv: provence,
           CustPostal: postal,
+          CustBusPhone: phone,
           CustPass: password1,
           CustSubscribed: subscription
         });
