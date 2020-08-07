@@ -85,20 +85,20 @@ p{
 /* add a color to a word on the h1 text and the current year on the footer */
 span{
   text-decoration: underline;
-  color: rgb(197, 5, 5);
+  color: orangered;
 }
 
 /* Style the website goal (button) - sign up here*/
 .web-goal{
-  width:150px;
+  width:225px;
   font-weight:bold;
-  padding: 10px;
+  padding: 20px;
 
   /* give the text a distinct color */
   color: #D3D1BC
 
   /* give the button a border */
-  border: 4px solid black;
+  border: 6px solid black;
 
   /* remove underline from the link */
   text-decoration: none;
@@ -119,7 +119,7 @@ span{
 #explore h2{
   text-align: center;
   font-family: "source sans pro", sans-serif;
-  padding: 8px;
+  padding: 6px;
   font-weight: bolder;
   text-decoration: underline;
 }
@@ -152,7 +152,7 @@ span{
 
 /* style contact us form */
 #information {
-  background-color: rgb(144, 149, 179);
+  background-color: #38647F;
   margin: 10px;
   padding: 35px;
   font-family: "source sans pro", sans-serif;
@@ -164,18 +164,18 @@ span{
   font-size: 1.7em;
   margin: 20px 0;
   padding-left: 0;
-  color: #84468a;
+  color: black;
 }
 
 #contact h4{
   font-size: 1em;
-  color: #7a4e7e;
+  color: black;
 }
 
 /* let users know the field is required*/
 label.required ::after{
   content: '*';
-  color: red;
+  color: black;
 }
 
 /* style input fields on the contact form*/
@@ -201,11 +201,11 @@ label.required ::after{
 /* style contact form submit button */
 #information button[type="submit"] {
   margin-top: 10px;
-  padding: 10px;
+  padding: 20px;
   width: 30%;
 
   /* give background  and border*/
-  background: #84468a;
+  background: #38637E;
   color: white;
   border-radius: 10px;
   cursor: pointer;

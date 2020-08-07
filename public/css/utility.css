@@ -87,7 +87,7 @@
 
 /* declare current page state for nav links*/
 .current {
-  background-image: linear-gradient(rgb(64, 64, 190), rgb(126, 20, 20));
+  background-image: linear-gradient(#EA9A4E, #EA9A4E);
 }
 
 /* Media Query for Portrait menu view */
@@ -147,3 +147,4 @@ footer .nav-icon {
   justify-content: center;
   list-style: none;
 }
+
