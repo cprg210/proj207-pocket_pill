@@ -9,16 +9,15 @@ fetch('http://localhost:3000/api/agency')
 
   let agencyTemplate = '';
 
-  const list = document.querySelector('list');
+  const list = document.querySelector('.list');
 
   agencyList.forEach(function(item){
 
     agencyTemplate +=
-    `<figure>
-        <h2>${item.AgncyIdSQL} </h
-        <h2>${item.AgncyCity} Office</h2>
+    `<section>
+        <h1>${item.AgncyCity} Office</h1>
         <p> Does this Work </p>
-    </figure>`;
+    </section>`;
   });
   list.innerHTML = agencyTemplate;
 });

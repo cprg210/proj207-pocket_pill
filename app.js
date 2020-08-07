@@ -154,7 +154,7 @@ app.get('/api/thisyear', function(request, response){
 // Post handler to save registration data into database
 // *****************************************************
 app.post('/register', (req, res) => {
-  let { username, email, password1, password2, subscription } = req.body;
+  let { username, email, steetAddress, city, provence, postal, phone, password1, password2, subscription } = req.body;
   // console.log(username, email, password1, password2, subscription);
   if (subscription === 'on') subscription = true;
   else subscription = false;
@@ -173,6 +173,9 @@ app.post('/register', (req, res) => {
       errors,
       username,
       email,
+      steetAddress,
+      city,
+      postal,
       password1,
       password2
     });
@@ -184,6 +187,10 @@ app.post('/register', (req, res) => {
           errors,
           username,
           email,
+          steetAddress,
+          city,
+          postal,
+          provence,
           password1,
           password2
         });
@@ -191,6 +198,10 @@ app.post('/register', (req, res) => {
         const newCustomer = new Customer({
           CustFirstName: username,
           CustEmail: email,
+          CustAddress: steetAddress,
+          CustCity: city,
+          CustProv: provence,
+          CustPostal: postal,
           CustPass: password1,
           CustSubscribed: subscription
         });

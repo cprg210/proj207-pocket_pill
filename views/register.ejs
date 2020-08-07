@@ -27,6 +27,21 @@
           <label for="email" class="required"><span>Email</span>
             <input type="email" name="email" id="email" placeholder="Enter full name" value="<%= typeof email != 'undefined' ? email : '' %>" required>
           </label>
+          <label for="streetAddress" class="required"><span>Street Address</span>
+            <input type="address" name="address" id="address" placeholder="123 Fake Street" value="<%= typeof address != 'undefined' ? address : '' %>" required>
+          </label>
+          <label for="city" class="required"><span>City</span>
+            <input type="city" name="city" id="city" placeholder="City" value="<%= typeof city != 'undefined' ? city : '' %>" required>
+          </label>
+          <label for="provence" class="required"><span>Provence</span>
+            <input type="provence" name="provence" id="provence" placeholder="Provence" value="<%= typeof provence != 'undefined' ? provence : '' %>" required>
+          </label>
+          <label for="postal" class="required"><span>Postal Code</span>
+            <input type="postal" name="postal" id="postal" placeholder="1A2 B3C" value="<%= typeof postal != 'undefined' ? postal : '' %>" required>
+          </label>
+          <label for="phone" class="required"><span>Primary Phone</span>
+            <input type="phone" name="phone" id="phone" placeholder="(xxx) xxx-xxxx" value="<%= typeof phone != 'undefined' ? phone : '' %>" required>
+          </label>
           <label for="password1" class="required">
             <span>Password</span>
 
