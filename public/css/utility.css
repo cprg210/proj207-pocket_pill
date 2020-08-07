@@ -43,9 +43,9 @@
 }
 
 /* declare active state for nav links */
-.nav-link a:active {
+/*.nav-link a:active {
   background-image: linear-gradient(lightblue, pink);
-}
+}*/
 
 .nav-icon{
   /*padding: 10px 14px;*/
