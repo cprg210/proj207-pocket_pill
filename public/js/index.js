@@ -35,15 +35,6 @@ fetch('http://localhost:3000/api/images')
   gallery.innerHTML = imgTemplate;
   });
     
-//hamburger menu.This line of code runs when the bar is clicked
-  $('.menu-toggle').click(function(){
-  $(".nav").toggleClass("portrait-nav");
-  $(this).toggleClass("is-active");
-});
 
   
-    // popup window//
-    popupBoxClose = function() {
-    document.querySelector(".popupBox").classList.add("closed");
-  }
-  
+   

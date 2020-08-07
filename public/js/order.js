@@ -6,29 +6,35 @@ fetch('http://localhost:3000/api/images')
   return response.json();
 })
 
-.then(function(images) {
-   
-  const imgList = images;
-   
-  // Variable where we will store our img tags
-  let imgTemplate = ''; 
-   
-  // Flex container for images
-  const gallery = document.querySelector('.gallery'); 
-   
-  // Loop through items using forEach (available on every array)
-  imgList.forEach(function(item){
+.then(function(packages) {
   
-  // Our output variable (imgTemplate)
-    imgTemplate += 
-     `<figure>
-        <a href="${item.PackageIdSQL}">
-        <img src="./images/small/${item.PkgFileName}" alt="${item.PkgName}">
-        </a>
-        <figcaption>${item.PkgName}!</figcaption>
-      </figure>`;
-  });
-         
-  // Add HTML img string to gallery container
-  gallery.innerHTML = imgTemplate;
-  });
+  const pkgList = packages;
+
+  const select = document.querySelector('select');
+    const para = document.querySelector('p');
+    
+    select.addEventListener('change', setPname);
+    let package ='';
+    function setPname() {
+      const choice = select.value;
+    
+      if (choice === '5') {
+       package = pkgList.find(item => item.PkgName == 'Tofino Surf and Hike');
+    
+        cost.value = '$ ' + package.PkgBasePrice.$numberDecimal
+        ;
+
+      } else if (choice === '6') {
+        pid.value = 'b';
+      } else if (choice === '7') {
+        pid.value = 'c';
+      } else if (choice === '8') {
+        pid.value = 'd';
+      } else if (choice === '9') {
+        pid.value = 'e';
+      } else if (choice === '10') {
+        pid.value = 'f';
+      } else {
+        pid.value = '';
+      }
+}})

@@ -39,11 +39,11 @@
       
                   <div class="row">
                     <div class="col-50">
-                      <label for="state">State</label>
+                      <label for="state">Province</label>
                       <input type="text" id="state" name="state" placeholder="Enter state">
                     </div>
                     <div class="col-50">
-                      <label for="zip">Zip</label>
+                      <label for="zip">Postal Code</label>
                       <input type="text" id="zip" name="zip" placeholder="Enter zip">
                     </div>
                   </div>
@@ -51,8 +51,8 @@
       
                 <div class="col-50">
                   <h3>Package Details</h3>
-                  <label for="cname">Package name</label>
-                    <select id="cname" name="Cardname">
+                  <label for="pname">Package name</label>
+                    <select id="pname" name="packagename">
                        <option value= 0>Select a vacation package</option>
                        <option value="5">Tofino Surf and Hike</option>
                        <option value="6">California Wine Tours</option>
@@ -64,18 +64,18 @@
                    </label>
                   
                   
-                   <label for="ccnum">Package ID</label>
-                  <input type="text" id="ccnum" name="cardnumber" placeholder="Enter package ID">
-                  <label for="expmonth">Date of Travel</label>
-                  <input type="date" id="expmonth" name="expmonth" placeholder="">
+                   <label for="pid">Package ID</label>
+                  <input type="text" id="pid" name="packageid" placeholder="Enter package ID">
+                  <label for="datetravel">Date of Travel</label>
+                  <input type="date" id="datetravel" name="datetravel" placeholder="">
                   <div class="row">
                     <div class="col-50">
-                      <label for="expyear">Cost</label>
-                      <input type="text" id="expyear" name="expyear" placeholder="">
+                      <label for="cost">Cost</label>
+                      <input type="text" id="cost" name="cost" placeholder="">
                     </div>
                     <div class="col-50">
-                      <label for="cvv">Total cost</label>
-                      <input type="text" id="cvv" name="cvv" placeholder="">
+                      <label for="tcost">Total cost</label>
+                      <input type="text" id="tcost" name="tcost" placeholder="">
                     </div>
                   </div>
                 </div>
@@ -94,6 +94,7 @@
   <%- include('./partials/foot'); %>
 
   <!--This contains the javascript for hamburger menu-->
-  <%- include('./partials/gallery-js'); %>
+  <script src="/js/hamburger.js"></script>
+  <script src="/js/order.js"></script>
 </body>
 </html>
