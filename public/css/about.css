@@ -1,5 +1,8 @@
+/* Give the about us first section a background color and grid properties*/
 .aboutus{
   background-color: rgb(245, 243, 241);
+  
+  /* display grid */
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 5px 1fr 1fr 1fr 1fr 5px;
@@ -10,58 +13,90 @@
   "about3 about3 about3 about3 about3 about3"
   ". about4 about8 about5 about6 about7"
   "about9 about9 about9 about9 about9 about9";
-  /*grid-gap: 10px;*/
 }
+
+/* give background color and size to the first row of the grid*/
 .about0{
   grid-area: about0;
-  background-color: rgb(116, 81, 116);
+  
+  /* background properties */
+  background-color: #38637E;
   background-size: cover;
 }
 
+/* define what about1 is and center it */
 .about1{
   grid-area: about1;
   justify-self: center;
 }
+
+/* define what about2 is and center */
 .about2{
   grid-area: about2;
   justify-self: center;
 }
+
+/* define what about3 is and center */
 .about3{
   grid-area: about3;
   justify-self: center;
 }
+
+/* define what about4 is and underline it */
 .about4{
   grid-area: about4;
+
+  /* underline */
   text-decoration: underline;
   text-decoration-thickness: 2px;
 }
+
+/* define what about5 is and underline */
 .about5{
   grid-area: about5;
+
+  /* underline */
   text-decoration: underline;
   text-decoration-thickness: 2px;
 }
+
+/* define what about6 is and underline */
 .about6{
   grid-area: about6;
+
+  /* underline */
   text-decoration: underline;
   text-decoration-thickness: 2px;
 }
+
+/* define what about7 is and underline */
 .about7{
   grid-area: about7;
+
+  /* underline */
   text-decoration: underline;
   text-decoration-thickness: 2px;
 }
+
+/* define what about8 is and underline */
 .about8{
   grid-area: about8;
+
+  /* underline */
   text-decoration: underline;
   text-decoration-thickness: 2px;
 }
+
+/* define what about9 is and give background properties */
 .about9{
   grid-area: about9;
-  background-color: rgb(116, 81, 116);
+
+  /* background */
+  background-color: #38637E;
   background-size: cover;
 }
 
-
+/* display grid for the section of the about us page */
 .aboutExperts, .aboutclients, .aboutmobile, .aboutpartners, .aboutbranches{
   display: grid;
   grid-template-columns: 50px 1fr 20px 1fr 50px;
@@ -69,6 +104,7 @@
   grid-gap: 10px;
 }
 
+/* display grid for first sub-section */
 .aboutExperts{
   grid-template-areas: 
   ". . . . ."
@@ -76,112 +112,164 @@
   ". expert2 . expert3 .";
 }
 
+/* define what expert0 */
 .expert0{
   grid-area: expert0;
 }
+
+/* define what expert1 is and center it */
 .expert1{
   grid-area: expert1;
+
+  /* give colour and center */
   color: rgb(76, 76, 117);
   justify-self: center;
   align-self: end;
 }
+
+/* define what expert2 is and push to the left */
 .expert2{
   grid-area: expert2;
   align-self: start;
 }
+
+/* define what expert1 is */
 .expert3{
   grid-area: expert3;
 }
 
-
+/* display grid for second sub-section */
 .aboutpartners{
   grid-template-areas: 
   ". . . . ."
   ". partner3 . partner1 ."
   ". partner3 . partner2 .";
 }
+
+/* define what partner0 is */
 .partner0{
   grid-area: partner0;
 }
+
+/* define what partner1 is and center it */
 .partner1{
   grid-area: partner1;
   color: rgb(76, 76, 117);
+
+  /* center */
   justify-self: center;
   align-self: end;
 }
+
+/* define what partner2 is and push to left */
 .partner2{
   grid-area: partner2;
   align-self: start;
 }
+
+/* define what partner3 is */
 .partner3{
   grid-area: partner3;
 }
 
+/* display grid for third sub-section */
 .aboutclients{
   grid-template-areas: 
   ". . . . ."
   ". client1 . client3 ."
   ". client2 . client3 .";
 }
+
+/* define what client0 is */
 .client0{
   grid-area: client0;
 }
+
+/* define what client1 is and center it */
 .client1{
   grid-area: client1;
   color: rgb(76, 76, 117);
+
+  /* center */
   justify-self: center;
   align-self: end;
 }
+
+/* define what client2 is and push to the left */
 .client2{
   grid-area: client2;
   align-self: start;
 }
+
+/* define what client3 is */
 .client3{
   grid-area: client3;
 }
 
+/* display grid for fourth sub-section */
 .aboutbranches{
   grid-template-areas: 
   ". . . . ."
   ". branches3 . branches1 ."
   ". branches3 . branches2 .";
 }
+
+/* define what branches0 is */
 .branches0{
   grid-area: branches0;
 }
+
+/* define what branches1 is and center it */
 .branches1{
   grid-area: branches1;
   color: rgb(76, 76, 117);
+
+  /* center */
   justify-self: center;
   align-self: end;
 }
+
+/* define what branches2 is and push to left */
 .branches2{
   grid-area: branches2;
   align-self: start;
 }
+
+/* define what branches3 is */
 .branches3{
   grid-area: branches3;
 }
 
+/* display grid for fifth sub-section */
 .aboutmobile{
   grid-template-areas: 
   ". . . . ."
   ". mobile1 . mobile3 ."
   ". mobile2 . mobile3 .";
 }
+
+/* define what mobile0 is */
 .mobile0{
   grid-area: mobile0;
 }
+
+/* define what mobile1 is and center it to the right */
 .mobile1{
   grid-area: mobile1;
   color: rgb(76, 76, 117);
+
+  /*center*/
   justify-self: center;
   align-self: end;
 }
+
+/* define what mobile2 is and push to left */
 .mobile2{
   grid-area: mobile2;
   align-self: start;
 }
+
+/* define what mobile3 is */
 .mobile3{
   grid-area: mobile3;
 }
