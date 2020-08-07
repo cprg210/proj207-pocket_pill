@@ -48,6 +48,18 @@ corsOptions = {
 };
 app.use(cors(corsOptions));
 
+
+// *****************************************************
+// Use session to save data
+// *****************************************************
+app.use(
+  session({
+    secret: 'ssshhhhhh',
+    resave: true,
+    saveUninitialized: true
+  })
+);
+
 // automatically check if requested file is found in /public
 // if yes, return that file as a response to the browser
 app.use(express.static(path.join(__dirname, 'public')));
@@ -59,6 +71,7 @@ app.get('/', function(request, response){
 
 // Setup GET endpoint handler for login page.
 app.get('/login', function(request, response){
+  sess = request.session;
   response.render('login',{xpage_message: sess.message});
 })
 
@@ -84,7 +97,8 @@ app.get('/about', function(request, response){
 
 
 app.get('/order', function(request, response){
-  response.render('order',{});
+  sess = request.session;
+  response.render('order',{xpage_message: sess.userEmail});
 })
 
 app.get('/payment', function(request, response){
@@ -112,7 +126,6 @@ app.get('/:id', function(request, response){
   });
 })
 
-
 app.get('/api/images', function(request, response) {
   Packages.find({'PkgEndDate': {$gt: moment()}, 'PkgStartDate': {$lte: moment()}}, function(error, result) {
     response.json(result);
@@ -136,18 +149,6 @@ app.get('/api/:agencyID', function(request, response) {
 app.get('/api/thisyear', function(request, response){
   response.json({year: moment().format("YYYY")});
 })
-
-
-// *****************************************************
-// Use session to save data
-// *****************************************************
-app.use(
-  session({
-    secret: 'ssshhhhhh',
-    resave: true,
-    saveUninitialized: true
-  })
-);
 
 // *****************************************************
 // Post handler to save registration data into database
@@ -241,7 +242,9 @@ app.post('/login', (req, res) => {
           name: "login"
         });
       } else {
-        res.redirect('/explore');
+        sess = req.session;
+        sess.userEmail = email;
+        res.redirect('/order');
         }
       });
     }   
