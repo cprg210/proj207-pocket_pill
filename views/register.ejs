@@ -22,20 +22,20 @@
         <fieldset>
           <legend></legend>
           <label for="username" class="required"><span>Name</span>
-            <input type="text" name="username" id="username" placeholder="Enter full name" required>
+            <input type="text" name="username" id="username" placeholder="Enter full name" value="<%= typeof username != 'undefined' ? username : '' %>" required>
           </label>    
           <label for="email" class="required"><span>Email</span>
-            <input type="email" name="email" id="email" placeholder="Enter full name" required>
+            <input type="email" name="email" id="email" placeholder="Enter full name" value="<%= typeof email != 'undefined' ? email : '' %>" required>
           </label>
           <label for="password1" class="required">
             <span>Password</span>
 
             <!--Minimum password length defined-->
-            <input type="password" name="password1" id="password1" placeholder="Password should be minimum of 8 characters" minlength="8" required>
+            <input type="password" name="password1" id="password1" placeholder="Password should be minimum of 8 characters" minlength="8" value="<%= typeof password1 != 'undefined' ? password1 : '' %>" required>
           </label>
           <label for="password2" class="required">
             <span>Confirm Password</span>
-            <input type="password" name="password2" id="password2" placeholder="same as entered above" minlength= "8" required>
+            <input type="password" name="password2" id="password2" placeholder="same as entered above" minlength= "8" value="<%= typeof password2 != 'undefined' ? password2 : '' %>" required>
           </label>
           <label for="subscription" class= "checkbox">Subscribe to Newsletter <span class="checkmark"></span>
             <input type="checkbox" name="subscription" id="subscription">

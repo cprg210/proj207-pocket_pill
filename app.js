@@ -59,7 +59,7 @@ app.get('/', function(request, response){
 
 // Setup GET endpoint handler for login page.
 app.get('/login', function(request, response){
-  response.render('login',{});
+  response.render('login',{xpage_message: sess.message});
 })
 
 // Setup GET endpoint handler for register page.
@@ -165,18 +165,26 @@ app.post('/register', (req, res) => {
     errors.push({ msg: 'Passwords do not match' });
   }
   if (password1.length < 8) {
-    errors.push({ msg: 'Password must be at least 2 characters' });
+    errors.push({ msg: 'Password must be at least 8 characters' });
   }
   if (errors.length > 0) {
     res.render('register', {
-      errors
+      errors,
+      username,
+      email,
+      password1,
+      password2
     });
   } else {
     Customer.findOne({ CustEmail: email }).then(user => {
       if (user) {
         errors.push({ msg: 'Email already exists in database' });
         res.render('register', {
-          errors
+          errors,
+          username,
+          email,
+          password1,
+          password2
         });
       } else {
         const newCustomer = new Customer({
@@ -194,7 +202,7 @@ app.post('/register', (req, res) => {
               .save()
               .then(user => {
                 sess = req.session;
-                sess.message = 'registrated successfully';
+                sess.message = 'registrated successfully, please log in';
                 res.redirect('login');
               })
               .catch(err => console.log(err));
