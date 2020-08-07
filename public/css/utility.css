@@ -39,7 +39,7 @@
 
 /* declare hover state for nav links */
 .nav-link a:hover {
-  background-image: linear-gradient(grey, rgb(104, 69, 69));
+  background-image: linear-gradient(grey,blue);
 }
 
 /* declare active state for nav links */
