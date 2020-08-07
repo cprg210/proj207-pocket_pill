@@ -27,7 +27,7 @@ fetch('http://localhost:3000/api/images')
         <a href="${item.PackageIdSQL}">
         <img src="./images/small/${item.PkgFileName}" alt="${item.PkgName}">
         </a>
-        <figcaption>${item.PkgName}!</figcaption>
+        <figcaption>${item.PkgName}</figcaption>
       </figure>`;
   });
          
