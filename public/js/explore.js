@@ -28,7 +28,7 @@ fetch('http://localhost:3000/api/images')
         <img src="./images/small/${item.PkgFileName}" alt="${item.PkgName}">
         </a>
         <figcaption>${item.PkgName}</figcaption>
-        <figcaption>April 14 Until October 14</figcaption>
+        <p>${item.PkgStartDate.slice(0, 10)} Until ${item.PkgEndDate.slice(0, 10)}</p>
         <a href="/order"><button>Book Now</button></a>
       </figure>`;
   });
