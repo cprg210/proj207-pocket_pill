@@ -14,4 +14,7 @@ likeJumping.jpg - https://candidtraveller.com/index.php/2019/10/30/10-reasons-wh
 
 380x380_Thailand.jpg - https://www.marriott.com/travel-experience/adventure-hotels/
 
+Modified Logo space in the index page - Alejandro Rojas
+
+
 
