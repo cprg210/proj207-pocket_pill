@@ -21,12 +21,8 @@
   color: #110011;
 }
 
-.large-images {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  margin-top: 5px;
+.destination-single figure img {
+  max-width: 900px;
 }
 
 /* description of each large image given border and styled */

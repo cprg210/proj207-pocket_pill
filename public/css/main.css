@@ -48,7 +48,7 @@ h3{
  
 /* style background for the main section*/
 main{
-    background-image: url("/images/gear1.jpg");
+    background-image: #F5F5F5;
     background-size: cover;
     background-position: center;
 }

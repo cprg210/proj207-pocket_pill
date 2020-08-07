@@ -20,13 +20,14 @@
     
     <!--card design is used for each image and caption-->
     <figure>
-      <img src="./images/small/<%= PkgFileName %>" alt="<%= PkgName %>">
+      <img src="./images/large/<%= PkgFileName %>" alt="<%= PkgName %>">
       <figcaption><%= PkgName %></figcaption>
         <!--This contains the description for each image as stored in the database-->
-    <p><%= PkgDesc %></p>
-    <p><%= PkgStartDate %> Until <%= PkgEndDate %></p>
-    <h2>$<%= PkgBasePrice %></h2>
-    <a href="/order"><button>Book Now</button></a>
+      <p><%= PkgDesc %></p>
+      <!-- <p><%= PkgStartDate %> Until <%= PkgEndDate %></p> -->
+      <p>April 14 Until October 14</p>
+     <h2>$<%= PkgBasePrice %></h2>
+      <a href="/order"><button>Book Now</button></a>
   </figure>
   </main>
   
