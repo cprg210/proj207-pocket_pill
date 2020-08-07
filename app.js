@@ -138,7 +138,7 @@ app.get('/api/agency', function(request, response) {
   });
 });
 
-app.get('/api/:agencyID', function(request, response) {
+app.get('/api/agentID/:agencyID', function(request, response) {
   Agent.find({'AgencyIdSQL': request.params.agencyID}, function(error, result) {
     response.json(result);
   });
