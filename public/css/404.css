@@ -10,7 +10,7 @@
   margin: 0;
 
   /* background of 404 page */
-  background-image: url(https://picsum.photos/id/279/200/300);
+  background-image: #F5F5F5;
   background-size: cover;
   background-position: center;
 }

@@ -76,12 +76,12 @@ app.get('/explore', function(request, response){
   response.render('explore',{});
 })
 
-// Setup GET endpoint handler for destination gallery page.
+
 app.get('/about', function(request, response){
   response.render('about',{});
 })
 
-// Setup GET endpoint handler for destination gallery page.
+
 app.get('/order', function(request, response){
   response.render('order',{});
 })
@@ -112,8 +112,14 @@ app.get('/:id', function(request, response){
 })
 
 
- app.get('/api/images', function(request, response) {
+app.get('/api/images', function(request, response) {
   Packages.find(function(error, result) {
+    response.json(result);
+  });
+});
+
+app.get('/api/agency', function(request, response) {
+  Agency.find(function(error, result) {
     response.json(result);
   });
 });

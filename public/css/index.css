@@ -33,7 +33,7 @@
 
 /* styling the hero section */
 .hero-section {
-  background-image: url("https://picsum.photos/id/130/200/300");
+  background-image: url("/images/gear1.png");
 
   /* Set a specific height */
   height: 100vh;
@@ -49,22 +49,22 @@
 .hero-text {
   text-align: center;
   position: absolute;
-  top: 55%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: rgb(53, 46, 46);
+  color: #38637E;
 }
 
 /* style h1 text accordingly */
 h1{
-  font-size: 3em;
+  font-size: 4em;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: -19px;
 }
 
 /* style paragraph text in hero-section accordingly */
 p{
-  font-size: 1.2em;
+  font-size: 1.7em;
   font-weight: bold;
   margin-bottom: 25px;
 }
@@ -84,33 +84,34 @@ p{
 
 /* add a color to a word on the h1 text and the current year on the footer */
 span{
-  color: rgb(105, 69, 48);
+  text-decoration: underline;
+  color: orangered;
 }
 
 /* Style the website goal (button) - sign up here*/
 .web-goal{
-  width:150px;
+  width:225px;
   font-weight:bold;
-  padding: 10px;
+  padding: 20px;
 
   /* give the text a distinct color */
-  color: rgb(212, 35, 35);
+  color: #D3D1BC
 
   /* give the button a border */
-  border: 2px solid black;
+  border: 6px solid black;
 
   /* remove underline from the link */
   text-decoration: none;
 
   /* give button a distinct background */
   transition: background-color 0.2s ease-out, color 0.2s ease-out;
-  background-color: rgb(58, 82, 148);
+  background-color: rgb(52, 100, 128);
 }
 
 /* declare a hover and active state for the button*/
 .web-goal:hover, .web-goal:active{
-  background-image: linear-gradient(white, black);
-  color: #000;
+  background-image: linear-gradient(white, rgba(0, 0, 0, 0.584));
+  color: orangered;
   transition: background-color 0.3s ease-in, color 0.3s ease-in;
 }
 
@@ -118,7 +119,7 @@ span{
 #explore h2{
   text-align: center;
   font-family: "source sans pro", sans-serif;
-  padding: 8px;
+  padding: 6px;
   font-weight: bolder;
   text-decoration: underline;
 }
@@ -151,7 +152,7 @@ span{
 
 /* style contact us form */
 #information {
-  background-color: rgb(144, 149, 179);
+  background-color: #38647F;
   margin: 10px;
   padding: 35px;
   font-family: "source sans pro", sans-serif;
@@ -163,18 +164,18 @@ span{
   font-size: 1.7em;
   margin: 20px 0;
   padding-left: 0;
-  color: #84468a;
+  color: black;
 }
 
 #contact h4{
   font-size: 1em;
-  color: #7a4e7e;
+  color: black;
 }
 
 /* let users know the field is required*/
 label.required ::after{
   content: '*';
-  color: red;
+  color: black;
 }
 
 /* style input fields on the contact form*/
@@ -200,11 +201,11 @@ label.required ::after{
 /* style contact form submit button */
 #information button[type="submit"] {
   margin-top: 10px;
-  padding: 10px;
+  padding: 20px;
   width: 30%;
 
   /* give background  and border*/
-  background: #84468a;
+  background: #38637E;
   color: white;
   border-radius: 10px;
   cursor: pointer;

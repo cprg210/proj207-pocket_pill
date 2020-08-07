@@ -47,7 +47,7 @@ h3{
  
 /* style background for the main section*/
 main{
-    background-image: url(https://picsum.photos/id/279/200/300);
+    background-image: url("/images/gear1.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -65,7 +65,7 @@ form span{
     padding: 10px;
     text-align: center;
 
-    background: #b895b9;
+    background: #38637E;
 }
 
 #register input, #order input{
@@ -98,11 +98,11 @@ label.required ::after{
     outline: 0;
     width: 100%;
     padding: 8px;
-    color: #9c5a5a;
-    font-size: 14px;
+    color: #0F407D;
+    font-size: 20px;
 
     border: 0;
-    background: #d1b2b2;
+    background: #DFB988;
 }
 
 /* declare hover state for login button */
@@ -123,7 +123,7 @@ label.required ::after{
 }
 
 #login{
-  background: #b895b9;
+  background: #38637E;
   max-width: 500px;
   margin: 0 auto;
   padding: 45px;
