@@ -5,6 +5,11 @@ Alejandro Rojas: Front-end
 Patrick Chen: Back-end and testing  
 Titilope Raheem: Front-end and Back-end
 
+Github Repo
+
+https://github.com/coding-rock/proj207-pocket_pill.git
+
+
 Where I have put *text* (See order-summery)
 I am marking it as placeholder to be replaced by a js operation - Branden
 
