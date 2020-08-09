@@ -16,5 +16,5 @@ likeJumping.jpg - https://candidtraveller.com/index.php/2019/10/30/10-reasons-wh
 
 Modified Logo space in the index page - Alejandro Rojas
 
-Corrected town name : Okotoks not Okatokes
+Corrected town name : Okotoks not Okatokes in the database
 
