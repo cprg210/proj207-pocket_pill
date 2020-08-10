@@ -144,6 +144,18 @@ app.get('/api/agencyID/:agencyID', function(request, response) {
   });
 });
 
+app.get('/api/agents', function(request, response) {
+  Agent.find(function(error, result) {
+    response.json(result);
+  });
+});
+
+app.get('/api/agentID/:agentID', function(request, response) {
+  Agent.find({'AgentIdSQL': request.params.agentID}, function(error, result) {
+    response.json(result);
+  });
+});
+
 // Created an api using postmaster (no EJS here) called thisyear which will be fetched.
 // this is the endpoint for current year using moment dependency (./public/js/thisyear.js)
 app.get('/api/thisyear', function(request, response){
