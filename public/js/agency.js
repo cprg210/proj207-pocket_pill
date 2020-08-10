@@ -6,13 +6,17 @@ fetch('http://localhost:3000/api/agency')
 
 .then(function(agency) {
   const agencyList = agency;
-
+  
+  // Variable where we will store our agency list
   let agencyTemplate = '';
 
+  // container for agencylist
   const list = document.querySelector('.list');
 
+  // Loop through items using forEach 
   agencyList.forEach(function(item){
 
+    // Our output variable (agencyTemplate)
     agencyTemplate +=
     `<section>
         <h1>${item.AgncyCity} Office</h1>
@@ -26,5 +30,7 @@ fetch('http://localhost:3000/api/agency')
       </div>
     </section>`;
   });
+
+  // Add HTML string to container
   list.innerHTML = agencyTemplate;
 });

@@ -36,7 +36,7 @@ h3{
   cursor: pointer;
 }
  
-
+/* display flex  and wrap*/
 .row {
   display: -ms-flexbox; /* IE10 */
   display: flex;

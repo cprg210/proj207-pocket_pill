@@ -1,6 +1,4 @@
 fetch('http://localhost:3000/api/images')
-
-//fetch('https://dry-bayou-50613.herokuapp.com/api/images')
     
 .then(function(response) {
   return response.json();
@@ -15,7 +13,7 @@ fetch('http://localhost:3000/api/images')
     
     select.addEventListener('change', setPname);
     
-    // Variable where we will store our img tags
+    // Variable where we will store our package information
     let package ='';
 
     function setPname() {
