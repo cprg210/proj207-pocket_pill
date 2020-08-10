@@ -1,29 +1,37 @@
+/* declare body properties */
 body {
   margin: 0;
   background-color:white;
 }
 
+/* style the popup and display flex */
 .popupBox {
   position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
+
+  /* flex properties */
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
+/* style image on pop up */
 img{
   border:none;
   overflow:hidden;
 }
+
+/* style text in pop up */
 .toolbar {
   text-align: right;
   padding: 10px;
   font-size: 2rem;
 }
 
+/* style X sign on pop up */
 .close {
   color: rgb(218, 34, 34);
   cursor: pointer;
@@ -40,24 +48,18 @@ img{
   display: none;
 }
 
-button{
-  margin: 5px;
-  padding: 10px;
-  background-color: rgb(110, 120, 139);
-  text-align: center;
-}
-
 .pop{
   color: #B5A084;
   text-align: center;
 }
 
-/* button test (Please let me know if you guys like it) */
+/* button styling */
 button{
   background:    #195e83;
   border-radius: 11px;
   padding:       15px 35px;
   color:         #B5A084;
+  
   display:       inline-block;
   font:          normal bold 26px/1 "Open Sans", sans-serif;
   text-align:    center;

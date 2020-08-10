@@ -1,9 +1,5 @@
-// the local host fetch was commented out for the heroku app to work
-
 fetch('http://localhost:3000/api/images')
 
-//fetch('https://dry-bayou-50613.herokuapp.com/api/images')
-    
 .then(function(response) {
   return response.json();
 })

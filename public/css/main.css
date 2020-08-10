@@ -1,8 +1,3 @@
-/* Author: Titilope Raheem
-   Date: 26th July 2020
-   Course module: CPRG-210-XM1 - Wed Application Development
-   Assignment 3 - Node Final*/
-
 /* Define font style*/
 body{
   height: 100vh;
@@ -27,11 +22,11 @@ body{
 h3{
   cursor: pointer;
   margin-right: auto;
- }
+}
 
- .navbar a{
+.navbar a{
     text-decoration: none;
- }
+}
 
 /* Company logo on navbar styling */
 .navbar img {
@@ -39,10 +34,10 @@ h3{
   width: 200px;
   margin-left: 20px;
   
-/* move company logo to the left side */
+  /* move company logo to the left side */
   justify-self: stretch;
   
-/* give logo a cursor state */
+  /* give logo a cursor state */
   cursor: pointer;
 }
  
@@ -145,19 +140,6 @@ label.required ::after{
 }
 
 /* style login button */
-/* #login button{
-  font-family: sans-serif;
-  text-transform: uppercase;
-
-  outline: 0;
-  background: #d1b2b2;
-
-  width: 100%;
-  border: 0;
-  padding: 15px;
-  color: #ffffff;
-  font-size: 14px;
-} */
 
 /* declare hover state for login button */
 #login button:hover{

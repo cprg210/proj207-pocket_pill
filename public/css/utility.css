@@ -10,6 +10,7 @@
 /* navbar flex declaration */
 .navbar {
   display: flex;
+
   /* height: 50px; */
   overflow: hidden;
 }
@@ -25,14 +26,17 @@
   font-size: 1.2rem;
   font-weight: 400;
   
+  /* positioning */
   text-decoration: none;
   padding: 5px;
   margin: 5px;
   color: rgb(54, 42, 42);
 
+  /* border */
   border: 1px solid rgb(110, 104, 104);
   border-radius: 5px;
   
+  /* background properties */
   background-color: grey;
   transition: color 0.3s ease-out;
 }
@@ -42,29 +46,25 @@
   background-image: linear-gradient(grey,blue);
 }
 
-/* declare active state for nav links */
-/*.nav-link a:active {
-  background-image: linear-gradient(lightblue, pink);
-}*/
-
 .nav-icon{
   /*padding: 10px 14px;*/
   margin: 0 0 0 30px;
-  
 }
 
+/* style nav links */
 .nav-icon a{
   margin: 0 7px;
   padding: 5px 5px;
   cursor: pointer;
   transition: all 0.7s ease;
   font-size: 15px;
-  
 }
 
+/* declare hover property */
 .nav-icon a:hover{
   background-color: rgb(15, 64, 125);
 }
+
 /* menu view */
 .menu-toggle .bar{
   width: 30px;

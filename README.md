@@ -5,6 +5,9 @@ Alejandro Rojas: Front-end
 Patrick Chen: Back-end and testing  
 Titilope Raheem: Front-end and Back-end
 
+## Github Repo
+https://github.com/coding-rock/proj207-pocket_pill.git
+
 ## Travel Package Functionality
 located on the explore.ejs page and the index page. JavaScript is in explore.js and app.js starts on line 113
 
@@ -19,12 +22,10 @@ Our additional features are the facebook post integration in the explore.ejs pag
 
 Photos references 
 likeJumping.jpg - https://candidtraveller.com/index.php/2019/10/30/10-reasons-why-adventure-travel-is-good-for-you/
-
 380x380_Thailand.jpg - https://www.marriott.com/travel-experience/adventure-hotels/
 
 Lourum Picsum for travel destination photos.
 
 Modified Logo space in the index page - Alejandro Rojas
-
-
+Corrected town name : Okotoks not Okatokes in the database
 

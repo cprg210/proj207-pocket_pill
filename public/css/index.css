@@ -1,8 +1,3 @@
-/* Author: Titilope Raheem
-   Date: 26th July 2020
-   Course module: CPRG-210-XM1 - Web Application Development
-   Assignment 3 - Node Final*/
-
 /* Navigation styling and setup */
 .navbar {
   justify-content: end;
@@ -28,7 +23,6 @@
   #contact {
     flex-direction: column;
   } 
-   
 }
 
 /* styling the hero section */
@@ -95,7 +89,7 @@ span{
   padding: 20px;
 
   /* give the text a distinct color */
-  color: #D3D1BC
+  color: #D3D1BC;
 
   /* give the button a border */
   border: 6px solid black;
@@ -245,146 +239,4 @@ img {
   vertical-align: middle;
   width: 100%;
 }
-
-/* Position the image container (needed to position the left and right arrows) */
-.container {
-  position: relative;
-}
-
-/* Hide the images by default */
-.packageSlides {
-  display: none;
-}
-
-/* Add a pointer when hovering over the thumbnail images */
-.cursor {
-  cursor: pointer;
-}
-
-/* Next & previous buttons */
-.before,
-.after {
-  cursor: pointer;
-  position: absolute;
-  top: 40%;
-  width: auto;
-  padding: 16px;
-  margin-top: -50px;
-  color: white;
-  font-weight: bold;
-  font-size: 20px;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  -webkit-user-select: none;
-}
-
-/* Position the "next button" to the right */
-.after {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.before:hover,
-.after:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Number text (1/3 etc) */
-.number {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* Container for image text */
-.title-container {
-  text-align: center;
-  background-color: rgb(134, 130, 130);
-  padding: 2px 16px;
-  color: rgba(20, 24, 23, 0.493);
-} 
-#title{
-  font-size: 1.5rem;
-  margin-bottom: 10px;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Six columns side by side */
-.column {
-  float: left;
-  width: 16.66%;
-}
-
-/* Add a transparency effect for thumnbail images */
-.demo {
-  opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-  opacity: 1;
-}
-
-
-.package1, .package2, .package3, .package4, .package5, .package6{
-  border: 1px solid black;
-  border-radius: 10px;
-  
-  padding: 15px;
- 
-}
-.price{
-  display: flex;
-  margin-top: 20px;
-}
-.pricetag{
-  display: flex;
-}
-button{
-  margin: 10px 50px;
-}
-
-.packages{
-  display: grid;
-  grid-template-columns: 20px 1fr 1fr 1fr 20px;
-  grid-template-rows: 1fr 1fr;
-  grid-gap: 20px;
-}
-
-.packages{
-  grid-template-areas: 
-  ". package1 package2 package3 ."
-  ". package4 package5 package6 .";
-}
-
-.package1{
-  grid-area: package1;
-}
-.package2{
-  grid-area: package2;
-}
-.package3{
-  grid-area: package3;
-}
-.package4{
-  grid-area: package4;
-}
-.package5{
-  grid-area: package5;
-}
-.package6{
-  grid-area: package6;
-}
-h3{
-  margin-top: 20px;
-}
-
 
